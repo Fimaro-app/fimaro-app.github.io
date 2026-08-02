@@ -20,12 +20,17 @@
       WorkHub
     </a>
     <nav class="nav-links">
-      <a href="#features">Можливості</a>
-      <a href="#pricing">Тарифи</a>
-      <a href="#faq">Питання</a>
-      <a href="../index.html">← Всі ніші</a>
+      <a href="#features" data-i18n="nav.features">Можливості</a>
+      <a href="#pricing" data-i18n="nav.pricing">Тарифи</a>
+      <a href="#faq" data-i18n="nav.faq">Питання</a>
+      <a href="../index.html" data-i18n="nav.back">← Всі ніші</a>
     </nav>
-    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav">Скачати безкоштовно</a>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="uk">UA</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav" data-i18n="nav.download">Скачати безкоштовно</a>
   </div>
 </header>
 
@@ -38,26 +43,26 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        <span>Для салонів краси та студій</span>
+        <span data-i18n="hero.badge">Для салонів краси та студій</span>
       </div>
       <h1>
-        Ваш салон.<br>
-        <span class="grad-text">Розклад під контролем.</span>
+        <span data-i18n="hero.title1">Ваш салон.</span><br>
+        <span class="grad-text" data-i18n="hero.title2">Розклад під контролем.</span>
       </h1>
-      <p class="hero-sub">
+      <p class="hero-sub" data-i18n="hero.sub">
         Клієнт сам бронює час за посиланням, майстер бачить розклад, каса рахує виручку за зміну, а склад показує скільки фарби чи гель-лаку залишилось. Без блокнота і Instagram-директу.
       </p>
       <div class="hero-actions">
         <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-hero">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-          <span>Скачати для Windows</span>
+          <span data-i18n="hero.dl_win">Скачати для Windows</span>
         </a>
-        <a href="#features" class="btn btn-ghost btn-lg">Що всередині →</a>
+        <a href="#features" class="btn btn-ghost btn-lg" data-i18n="hero.explore">Що всередині →</a>
       </div>
       <div class="hero-trust">
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Клієнт записується сам, онлайн</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Каса і склад в одному місці</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Безкоштовний план назавжди</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust1">Клієнт записується сам, онлайн</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust2">Каса і склад в одному місці</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust3">Безкоштовний план назавжди</span></span>
       </div>
     </div>
 
@@ -75,19 +80,19 @@
 
 <div class="container">
   <div class="stats-row">
-    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label">модулів у застосунку</div></div>
-    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label">готові ніші з коробки</div></div>
-    <div class="stat-item"><div class="stat-num">&lt;2 хв</div><div class="stat-label">від встановлення до першого клієнта</div></div>
-    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label">безкоштовний план назавжди</div></div>
+    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label" data-i18n="stats.modules">модулів у застосунку</div></div>
+    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label" data-i18n="stats.niches">готові ніші з коробки</div></div>
+    <div class="stat-item"><div class="stat-num" data-i18n="stats.setup_num">&lt;2 хв</div><div class="stat-label" data-i18n="stats.setup">від встановлення до першого клієнта</div></div>
+    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label" data-i18n="stats.free">безкоштовний план назавжди</div></div>
   </div>
 </div>
 
 <section class="section" id="features">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ДЛЯ САЛОНІВ КРАСИ</div>
-      <h2>Все, що замінює блокнот, Instagram-директ і Excel-склад</h2>
-      <p class="section-sub">Запис, розклад, каса і склад — в одному застосунку, під ваш салон чи студію.</p>
+      <div class="section-tag" data-i18n="features.tag">ДЛЯ САЛОНІВ КРАСИ</div>
+      <h2 data-i18n="features.title">Все, що замінює блокнот, Instagram-директ і Excel-склад</h2>
+      <p class="section-sub" data-i18n="features.sub">Запис, розклад, каса і склад — в одному застосунку, під ваш салон чи студію.</p>
     </div>
 
     <div class="features-bento">
@@ -96,42 +101,42 @@
         <div class="bento-icon" style="color:#F472B6">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         </div>
-        <h3>Онлайн-запис за посиланням</h3>
-        <p>Клієнт сам обирає майстра, послугу і вільний час — без дзвінків і листування в директ. Ви налаштовуєте робочі години, запис одразу з'являється в розкладі.</p>
-        <div class="bento-tags"><span>Онлайн-бронювання</span><span>Розклад</span></div>
+        <h3 data-i18n="feat.booking.title">Онлайн-запис за посиланням</h3>
+        <p data-i18n="feat.booking.desc">Клієнт сам обирає майстра, послугу і вільний час — без дзвінків і листування в директ. Ви налаштовуєте робочі години, запис одразу з'являється в розкладі.</p>
+        <div class="bento-tags"><span data-i18n="feat.booking.t1">Онлайн-бронювання</span><span data-i18n="feat.booking.t2">Розклад</span></div>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#7C5CFC">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Клієнти та історія</h3>
-        <p>Картка кожного клієнта: контакти, історія відвідувань, улюблені послуги. Легко побачити хто давно не був.</p>
+        <h3 data-i18n="feat.clients.title">Клієнти та історія</h3>
+        <p data-i18n="feat.clients.desc">Картка кожного клієнта: контакти, історія відвідувань, улюблені послуги. Легко побачити хто давно не був.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#38BDF8">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M6 12h.01M18 12h.01"/></svg>
         </div>
-        <h3>Каса зміни</h3>
-        <p>ПКО/РКО з вибором способу оплати — готівка, термінал чи безготівково. Видно скільки заробили за день без ручного підрахунку чеків.</p>
+        <h3 data-i18n="feat.cash.title">Каса зміни</h3>
+        <p data-i18n="feat.cash.desc">ПКО/РКО з вибором способу оплати — готівка, термінал чи безготівково. Видно скільки заробили за день без ручного підрахунку чеків.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#22C55E">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><circle cx="7" cy="7" r="1"/></svg>
         </div>
-        <h3>Каталог послуг і цін</h3>
-        <p>Категорії послуг з цінами, які одразу підтягуються в запис і в чек. Змінюєте прайс в одному місці.</p>
+        <h3 data-i18n="feat.services.title">Каталог послуг і цін</h3>
+        <p data-i18n="feat.services.desc">Категорії послуг з цінами, які одразу підтягуються в запис і в чек. Змінюєте прайс в одному місці.</p>
       </div>
 
       <div class="bento-card bento-wide">
         <div class="bento-icon" style="color:#F59E0B">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.91 8.84L8.56 21.19a1.93 1.93 0 0 1-2.73 0L2.81 18.16a1.93 1.93 0 0 1 0-2.73L15.16 2.81a1.93 1.93 0 0 1 2.73 0l3.02 3.02a1.93 1.93 0 0 1 0 2.73z"/></svg>
         </div>
-        <h3>Склад витратних матеріалів</h3>
-        <p>Облік фарби, лаків, витратних матеріалів по категоріях і залишках — щоб не купувати наосліп і не зупинятись посеред зміни через те, що щось закінчилось.</p>
-        <div class="bento-tags"><span>Склад</span><span>Залишки</span></div>
+        <h3 data-i18n="feat.wh.title">Склад витратних матеріалів</h3>
+        <p data-i18n="feat.wh.desc">Облік фарби, лаків, витратних матеріалів по категоріях і залишках — щоб не купувати наосліп і не зупинятись посеред зміни через те, що щось закінчилось.</p>
+        <div class="bento-tags"><span data-i18n="feat.wh.t1">Склад</span><span data-i18n="feat.wh.t2">Залишки</span></div>
       </div>
 
     </div>
@@ -146,24 +151,24 @@
         <img src="../secureti.jpg" alt="Безпека акаунта WorkHub — 2FA, зміна пароля, активні сесії">
       </div>
       <div class="showcase-text">
-        <h3>Безпека без компромісів</h3>
-        <p>Дані клієнтів салону — чутлива інформація. WorkHub захищає акаунт на кількох рівнях, а не одним паролем.</p>
+        <h3 data-i18n="sc.sec.title">Безпека без компромісів</h3>
+        <p data-i18n="sc.sec.desc">Дані клієнтів салону — чутлива інформація. WorkHub захищає акаунт на кількох рівнях, а не одним паролем.</p>
         <div class="showcase-list">
           <div class="showcase-list-item">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
-            Двофакторна автентифікація (Google Authenticator)
+            <span data-i18n="sc.sec.l1">Двофакторна автентифікація (Google Authenticator)</span>
           </div>
           <div class="showcase-list-item">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
-            Паролі клієнтів — AES-шифрування
+            <span data-i18n="sc.sec.l2">Паролі клієнтів — AES-шифрування</span>
           </div>
           <div class="showcase-list-item">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg>
-            Активні сесії — бачите всі пристрої, з яких заходили
+            <span data-i18n="sc.sec.l3">Активні сесії — бачите всі пристрої, з яких заходили</span>
           </div>
           <div class="showcase-list-item">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/></svg>
-            Дані у хмарі Google (Firebase), не на вашому диску
+            <span data-i18n="sc.sec.l4">Дані у хмарі Google (Firebase), не на вашому диску</span>
           </div>
         </div>
       </div>
@@ -174,26 +179,26 @@
 <section class="section" id="how">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ЯК ЦЕ ПРАЦЮЄ</div>
-      <h2>Від встановлення до першого запису — 2 хвилини</h2>
+      <div class="section-tag" data-i18n="how.tag">ЯК ЦЕ ПРАЦЮЄ</div>
+      <h2 data-i18n="how.title">Від встановлення до першого запису — 2 хвилини</h2>
     </div>
     <div class="steps-row">
       <div class="step-item">
         <div class="step-num">01</div>
-        <h3>Завантаж і встанови</h3>
-        <p>Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
+        <h3 data-i18n="how.s1.title">Завантаж і встанови</h3>
+        <p data-i18n="how.s1.desc">Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">02</div>
-        <h3>Обери нішу «Салон краси»</h3>
-        <p>Розклад, онлайн-запис, послуги, каса і склад підключаться автоматично.</p>
+        <h3 data-i18n="how.s2.title">Обери нішу «Салон краси»</h3>
+        <p data-i18n="how.s2.desc">Розклад, онлайн-запис, послуги, каса і склад підключаться автоматично.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">03</div>
-        <h3>Надішли посилання клієнту</h3>
-        <p>Він сам обере час — запис з'явиться у вашому розкладі, а оплата — в касі.</p>
+        <h3 data-i18n="how.s3.title">Надішли посилання клієнту</h3>
+        <p data-i18n="how.s3.desc">Він сам обере час — запис з'явиться у вашому розкладі, а оплата — в касі.</p>
       </div>
     </div>
   </div>
@@ -202,52 +207,52 @@
 <section class="section section-dim" id="pricing">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ТАРИФИ</div>
-      <h2>Почни безкоштовно</h2>
-      <p class="section-sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
+      <div class="section-tag" data-i18n="pricing.tag">ТАРИФИ</div>
+      <h2 data-i18n="pricing.title">Почни безкоштовно</h2>
+      <p class="section-sub" data-i18n="pricing.sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
     </div>
 
     <div class="pricing-row">
 
       <div class="price-card">
         <div class="price-tier">FREE</div>
-        <div class="price-amount">₴0<span>/міс</span></div>
-        <p class="price-desc">Для старту та ознайомлення</p>
+        <div class="price-amount">₴0<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.free.desc">Для старту та ознайомлення</p>
         <ul class="price-list">
-          <li>До 50 клієнтів</li>
-          <li>Розклад і онлайн-запис</li>
-          <li>Каталог послуг</li>
-          <li>1 користувач</li>
+          <li data-i18n="pricing.free.1">До 50 клієнтів</li>
+          <li data-i18n="pricing.free.2">Розклад і онлайн-запис</li>
+          <li data-i18n="pricing.free.3">Каталог послуг</li>
+          <li data-i18n="pricing.free.4">1 користувач</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Почати безкоштовно</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.free.btn">Почати безкоштовно</a>
       </div>
 
       <div class="price-card price-featured">
-        <div class="price-popular">Найпопулярніший</div>
+        <div class="price-popular" data-i18n="pricing.popular">Найпопулярніший</div>
         <div class="price-tier" style="color:#7C5CFC">PRO</div>
-        <div class="price-amount">₴299<span>/міс</span></div>
-        <p class="price-desc">Для активної роботи</p>
+        <div class="price-amount">₴299<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.pro.desc">Для активної роботи</p>
         <ul class="price-list">
-          <li>Необмежено клієнтів і записів</li>
-          <li>Каса та склад</li>
-          <li>Нагадування клієнтам</li>
-          <li>Розширена аналітика</li>
-          <li>Всі модулі</li>
+          <li data-i18n="pricing.pro.1">Необмежено клієнтів і записів</li>
+          <li data-i18n="pricing.pro.2">Каса та склад</li>
+          <li data-i18n="pricing.pro.3">Нагадування клієнтам</li>
+          <li data-i18n="pricing.pro.4">Розширена аналітика</li>
+          <li data-i18n="pricing.pro.5">Всі модулі</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block">Обрати PRO</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block" data-i18n="pricing.pro.btn">Обрати PRO</a>
       </div>
 
       <div class="price-card">
         <div class="price-tier" style="color:#A78BFA">BUSINESS</div>
-        <div class="price-amount">₴799<span>/міс</span></div>
-        <p class="price-desc">Для кількох майстрів або філій</p>
+        <div class="price-amount">₴799<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.biz.desc">Для кількох майстрів або філій</p>
         <ul class="price-list">
-          <li>Все з PRO</li>
-          <li>Команда до 5 осіб</li>
-          <li>До 3 окремих бізнесів</li>
-          <li>Пріоритетна підтримка</li>
+          <li data-i18n="pricing.biz.1">Все з PRO</li>
+          <li data-i18n="pricing.biz.2">Команда до 5 осіб</li>
+          <li data-i18n="pricing.biz.3">До 3 окремих бізнесів</li>
+          <li data-i18n="pricing.biz.4">Пріоритетна підтримка</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Обрати BUSINESS</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.biz.btn">Обрати BUSINESS</a>
       </div>
 
     </div>
@@ -257,33 +262,33 @@
 <section class="section" id="faq">
   <div class="container container-narrow">
     <div class="section-head">
-      <div class="section-tag">ПИТАННЯ</div>
-      <h2>Часті запитання</h2>
+      <div class="section-tag" data-i18n="faq.tag">ПИТАННЯ</div>
+      <h2 data-i18n="faq.title">Часті запитання</h2>
     </div>
     <div class="faq-list">
       <details class="faq-item" open>
-        <summary>Чи бачить клієнт вільні слоти онлайн?</summary>
-        <p>Так, клієнт переходить за посиланням, обирає майстра, послугу і вільний час — запис одразу з'являється у вашому розкладі.</p>
+        <summary data-i18n="faq.q1">Чи бачить клієнт вільні слоти онлайн?</summary>
+        <p data-i18n="faq.a1">Так, клієнт переходить за посиланням, обирає майстра, послугу і вільний час — запис одразу з'являється у вашому розкладі.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи можна кілька майстрів в одному салоні?</summary>
-        <p>Так, на плані BUSINESS можна запросити до 5 співробітників, у кожного — власний розклад і доступ до потрібних модулів.</p>
+        <summary data-i18n="faq.q2">Чи можна кілька майстрів в одному салоні?</summary>
+        <p data-i18n="faq.a2">Так, на плані BUSINESS можна запросити до 5 співробітників, у кожного — власний розклад і доступ до потрібних модулів.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи є облік витратних матеріалів?</summary>
-        <p>Так, окремий модуль «Склад» — категорії товарів, залишки, списання. Зручно бачити коли треба замовляти нову партію.</p>
+        <summary data-i18n="faq.q3">Чи є облік витратних матеріалів?</summary>
+        <p data-i18n="faq.a3">Так, окремий модуль «Склад» — категорії товарів, залишки, списання. Зручно бачити коли треба замовляти нову партію.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи можна приймати оплату готівкою і карткою?</summary>
-        <p>Так, каса підтримує готівку, термінал і безготівковий розрахунок з контрагентом — усе видно в одній таблиці ПКО/РКО.</p>
+        <summary data-i18n="faq.q4">Чи можна приймати оплату готівкою і карткою?</summary>
+        <p data-i18n="faq.a4">Так, каса підтримує готівку, термінал і безготівковий розрахунок з контрагентом — усе видно в одній таблиці ПКО/РКО.</p>
       </details>
       <details class="faq-item">
-        <summary>Де зберігаються дані?</summary>
-        <p>У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
+        <summary data-i18n="faq.q5">Де зберігаються дані?</summary>
+        <p data-i18n="faq.a5">У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
       </details>
       <details class="faq-item">
-        <summary>Як скасувати підписку?</summary>
-        <p>В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
+        <summary data-i18n="faq.q6">Як скасувати підписку?</summary>
+        <p data-i18n="faq.a6">В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
       </details>
     </div>
   </div>
@@ -292,12 +297,12 @@
 <section class="cta-section">
   <div class="cta-glow"></div>
   <div class="container cta-inner">
-    <h2>Готові прибрати блокнот і директ?</h2>
-    <p>Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
+    <h2 data-i18n="cta.title">Готові прибрати блокнот і директ?</h2>
+    <p data-i18n="cta.sub">Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
     <div class="cta-actions">
       <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-cta">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-        <span>Завантажити для Windows</span>
+        <span data-i18n="cta.dl_win">Завантажити для Windows</span>
       </a>
     </div>
     <p class="cta-meta" id="dl-meta"></p>
@@ -310,7 +315,7 @@
       <div class="brand-logo">W</div>
       WorkHub
     </a>
-    <p class="footer-copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
+    <p class="footer-copy" data-i18n="footer.copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
     <div class="footer-links">
       <a href="https://t.me/workhubapp" target="_blank" rel="noopener" title="Telegram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12s5.15 11.5 11.5 11.5S23.5 18.35 23.5 12 18.35.5 12 .5zm5.4 7.9l-1.9 9.05c-.14.64-.52.79-1.05.49l-2.9-2.14-1.4 1.35c-.16.16-.29.29-.59.29l.21-2.99 5.44-4.92c.24-.21-.05-.33-.36-.12l-6.73 4.24-2.9-.91c-.63-.2-.64-.63.13-.93l11.34-4.37c.52-.19.98.13.71 1.3z"/></svg>
@@ -326,6 +331,187 @@
 </footer>
 
 <script>
+const T = {
+  uk: {
+    'nav.features': 'Можливості', 'nav.pricing': 'Тарифи', 'nav.faq': 'Питання', 'nav.back': '← Всі ніші', 'nav.download': 'Скачати безкоштовно',
+    'hero.badge': 'Для салонів краси та студій',
+    'hero.title1': 'Ваш салон.', 'hero.title2': 'Розклад під контролем.',
+    'hero.sub': 'Клієнт сам бронює час за посиланням, майстер бачить розклад, каса рахує виручку за зміну, а склад показує скільки фарби чи гель-лаку залишилось. Без блокнота і Instagram-директу.',
+    'hero.dl_win': 'Скачати для Windows', 'hero.explore': 'Що всередині →',
+    'hero.trust1': 'Клієнт записується сам, онлайн', 'hero.trust2': 'Каса і склад в одному місці', 'hero.trust3': 'Безкоштовний план назавжди',
+    'stats.modules': 'модулів у застосунку', 'stats.niches': 'готові ніші з коробки',
+    'stats.setup_num': '<2 хв', 'stats.setup': 'від встановлення до першого клієнта', 'stats.free': 'безкоштовний план назавжди',
+    'features.tag': 'ДЛЯ САЛОНІВ КРАСИ', 'features.title': 'Все, що замінює блокнот, Instagram-директ і Excel-склад',
+    'features.sub': 'Запис, розклад, каса і склад — в одному застосунку, під ваш салон чи студію.',
+    'feat.booking.title': 'Онлайн-запис за посиланням',
+    'feat.booking.desc': "Клієнт сам обирає майстра, послугу і вільний час — без дзвінків і листування в директ. Ви налаштовуєте робочі години, запис одразу з'являється в розкладі.",
+    'feat.booking.t1': 'Онлайн-бронювання', 'feat.booking.t2': 'Розклад',
+    'feat.clients.title': 'Клієнти та історія',
+    'feat.clients.desc': 'Картка кожного клієнта: контакти, історія відвідувань, улюблені послуги. Легко побачити хто давно не був.',
+    'feat.cash.title': 'Каса зміни',
+    'feat.cash.desc': 'ПКО/РКО з вибором способу оплати — готівка, термінал чи безготівково. Видно скільки заробили за день без ручного підрахунку чеків.',
+    'feat.services.title': 'Каталог послуг і цін',
+    'feat.services.desc': 'Категорії послуг з цінами, які одразу підтягуються в запис і в чек. Змінюєте прайс в одному місці.',
+    'feat.wh.title': 'Склад витратних матеріалів',
+    'feat.wh.desc': 'Облік фарби, лаків, витратних матеріалів по категоріях і залишках — щоб не купувати наосліп і не зупинятись посеред зміни через те, що щось закінчилось.',
+    'feat.wh.t1': 'Склад', 'feat.wh.t2': 'Залишки',
+    'sc.sec.title': 'Безпека без компромісів',
+    'sc.sec.desc': 'Дані клієнтів салону — чутлива інформація. WorkHub захищає акаунт на кількох рівнях, а не одним паролем.',
+    'sc.sec.l1': 'Двофакторна автентифікація (Google Authenticator)',
+    'sc.sec.l2': 'Паролі клієнтів — AES-шифрування',
+    'sc.sec.l3': 'Активні сесії — бачите всі пристрої, з яких заходили',
+    'sc.sec.l4': 'Дані у хмарі Google (Firebase), не на вашому диску',
+    'how.tag': 'ЯК ЦЕ ПРАЦЮЄ', 'how.title': 'Від встановлення до першого запису — 2 хвилини',
+    'how.s1.title': 'Завантаж і встанови', 'how.s1.desc': 'Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.',
+    'how.s2.title': 'Обери нішу «Салон краси»', 'how.s2.desc': 'Розклад, онлайн-запис, послуги, каса і склад підключаться автоматично.',
+    'how.s3.title': 'Надішли посилання клієнту', 'how.s3.desc': "Він сам обере час — запис з'явиться у вашому розкладі, а оплата — в касі.",
+    'pricing.tag': 'ТАРИФИ', 'pricing.title': 'Почни безкоштовно', 'pricing.period': '/міс',
+    'pricing.sub': "Без прив'язки картки. Скасування в один клік. Дані не видаляються.", 'pricing.popular': 'Найпопулярніший',
+    'pricing.free.desc': 'Для старту та ознайомлення', 'pricing.free.1': 'До 50 клієнтів', 'pricing.free.2': 'Розклад і онлайн-запис',
+    'pricing.free.3': 'Каталог послуг', 'pricing.free.4': '1 користувач', 'pricing.free.btn': 'Почати безкоштовно',
+    'pricing.pro.desc': 'Для активної роботи', 'pricing.pro.1': 'Необмежено клієнтів і записів', 'pricing.pro.2': 'Каса та склад',
+    'pricing.pro.3': 'Нагадування клієнтам', 'pricing.pro.4': 'Розширена аналітика', 'pricing.pro.5': 'Всі модулі', 'pricing.pro.btn': 'Обрати PRO',
+    'pricing.biz.desc': 'Для кількох майстрів або філій', 'pricing.biz.1': 'Все з PRO', 'pricing.biz.2': 'Команда до 5 осіб',
+    'pricing.biz.3': 'До 3 окремих бізнесів', 'pricing.biz.4': 'Пріоритетна підтримка', 'pricing.biz.btn': 'Обрати BUSINESS',
+    'faq.tag': 'ПИТАННЯ', 'faq.title': 'Часті запитання',
+    'faq.q1': 'Чи бачить клієнт вільні слоти онлайн?', 'faq.a1': "Так, клієнт переходить за посиланням, обирає майстра, послугу і вільний час — запис одразу з'являється у вашому розкладі.",
+    'faq.q2': 'Чи можна кілька майстрів в одному салоні?', 'faq.a2': 'Так, на плані BUSINESS можна запросити до 5 співробітників, у кожного — власний розклад і доступ до потрібних модулів.',
+    'faq.q3': 'Чи є облік витратних матеріалів?', 'faq.a3': 'Так, окремий модуль «Склад» — категорії товарів, залишки, списання. Зручно бачити коли треба замовляти нову партію.',
+    'faq.q4': 'Чи можна приймати оплату готівкою і карткою?', 'faq.a4': 'Так, каса підтримує готівку, термінал і безготівковий розрахунок з контрагентом — усе видно в одній таблиці ПКО/РКО.',
+    'faq.q5': 'Де зберігаються дані?', 'faq.a5': 'У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.',
+    'faq.q6': 'Як скасувати підписку?', 'faq.a6': 'В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.',
+    'cta.title': 'Готові прибрати блокнот і директ?', 'cta.sub': 'Встановлення займає менше хвилини. Безкоштовно, без картки.',
+    'cta.dl_win': 'Завантажити для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Усі права захищені.',
+  },
+  ru: {
+    'nav.features': 'Возможности', 'nav.pricing': 'Тарифы', 'nav.faq': 'Вопросы', 'nav.back': '← Все ниши', 'nav.download': 'Скачать бесплатно',
+    'hero.badge': 'Для салонов красоты и студий',
+    'hero.title1': 'Ваш салон.', 'hero.title2': 'Расписание под контролем.',
+    'hero.sub': 'Клиент сам бронирует время по ссылке, мастер видит расписание, касса считает выручку за смену, а склад показывает сколько краски или гель-лака осталось. Без блокнота и Instagram-директа.',
+    'hero.dl_win': 'Скачать для Windows', 'hero.explore': 'Что внутри →',
+    'hero.trust1': 'Клиент записывается сам, онлайн', 'hero.trust2': 'Касса и склад в одном месте', 'hero.trust3': 'Бесплатный план навсегда',
+    'stats.modules': 'модулей в приложении', 'stats.niches': 'готовые ниши из коробки',
+    'stats.setup_num': '<2 мин', 'stats.setup': 'от установки до первого клиента', 'stats.free': 'бесплатный план навсегда',
+    'features.tag': 'ДЛЯ САЛОНОВ КРАСОТЫ', 'features.title': 'Всё, что заменяет блокнот, Instagram-директ и Excel-склад',
+    'features.sub': 'Запись, расписание, касса и склад — в одном приложении, под ваш салон или студию.',
+    'feat.booking.title': 'Онлайн-запись по ссылке',
+    'feat.booking.desc': 'Клиент сам выбирает мастера, услугу и свободное время — без звонков и переписки в директ. Вы настраиваете рабочие часы, запись сразу появляется в расписании.',
+    'feat.booking.t1': 'Онлайн-бронирование', 'feat.booking.t2': 'Расписание',
+    'feat.clients.title': 'Клиенты и история',
+    'feat.clients.desc': 'Карточка каждого клиента: контакты, история посещений, любимые услуги. Легко увидеть кто давно не был.',
+    'feat.cash.title': 'Касса смены',
+    'feat.cash.desc': 'ПКО/РКО с выбором способа оплаты — наличные, терминал или безналично. Видно сколько заработали за день без ручного подсчёта чеков.',
+    'feat.services.title': 'Каталог услуг и цен',
+    'feat.services.desc': 'Категории услуг с ценами, которые сразу подтягиваются в запись и в чек. Меняете прайс в одном месте.',
+    'feat.wh.title': 'Склад расходных материалов',
+    'feat.wh.desc': 'Учёт краски, лаков, расходных материалов по категориям и остаткам — чтобы не покупать вслепую и не останавливаться посреди смены из-за того, что что-то закончилось.',
+    'feat.wh.t1': 'Склад', 'feat.wh.t2': 'Остатки',
+    'sc.sec.title': 'Безопасность без компромиссов',
+    'sc.sec.desc': 'Данные клиентов салона — чувствительная информация. WorkHub защищает аккаунт на нескольких уровнях, а не одним паролем.',
+    'sc.sec.l1': 'Двухфакторная аутентификация (Google Authenticator)',
+    'sc.sec.l2': 'Пароли клиентов — AES-шифрование',
+    'sc.sec.l3': 'Активные сессии — видны все устройства, с которых заходили',
+    'sc.sec.l4': 'Данные в облаке Google (Firebase), а не на вашем диске',
+    'how.tag': 'КАК ЭТО РАБОТАЕТ', 'how.title': 'От установки до первой записи — 2 минуты',
+    'how.s1.title': 'Скачай и установи', 'how.s1.desc': 'Один .exe файл. Без прав администратора, без зависимостей, без регистрации.',
+    'how.s2.title': 'Выбери нишу «Салон красоты»', 'how.s2.desc': 'Расписание, онлайн-запись, услуги, касса и склад подключатся автоматически.',
+    'how.s3.title': 'Отправь ссылку клиенту', 'how.s3.desc': 'Он сам выберет время — запись появится в вашем расписании, а оплата — в кассе.',
+    'pricing.tag': 'ТАРИФЫ', 'pricing.title': 'Начни бесплатно', 'pricing.period': '/мес',
+    'pricing.sub': 'Без привязки карты. Отмена в один клик. Данные не удаляются.', 'pricing.popular': 'Самый популярный',
+    'pricing.free.desc': 'Для старта и знакомства', 'pricing.free.1': 'До 50 клиентов', 'pricing.free.2': 'Расписание и онлайн-запись',
+    'pricing.free.3': 'Каталог услуг', 'pricing.free.4': '1 пользователь', 'pricing.free.btn': 'Начать бесплатно',
+    'pricing.pro.desc': 'Для активной работы', 'pricing.pro.1': 'Безлимитные клиенты и записи', 'pricing.pro.2': 'Касса и склад',
+    'pricing.pro.3': 'Напоминания клиентам', 'pricing.pro.4': 'Расширенная аналитика', 'pricing.pro.5': 'Все модули', 'pricing.pro.btn': 'Выбрать PRO',
+    'pricing.biz.desc': 'Для нескольких мастеров или филиалов', 'pricing.biz.1': 'Всё из PRO', 'pricing.biz.2': 'Команда до 5 человек',
+    'pricing.biz.3': 'До 3 отдельных бизнесов', 'pricing.biz.4': 'Приоритетная поддержка', 'pricing.biz.btn': 'Выбрать BUSINESS',
+    'faq.tag': 'ВОПРОСЫ', 'faq.title': 'Частые вопросы',
+    'faq.q1': 'Видит ли клиент свободные слоты онлайн?', 'faq.a1': 'Да, клиент переходит по ссылке, выбирает мастера, услугу и свободное время — запись сразу появляется в вашем расписании.',
+    'faq.q2': 'Можно ли несколько мастеров в одном салоне?', 'faq.a2': 'Да, на плане BUSINESS можно пригласить до 5 сотрудников, у каждого — своё расписание и доступ к нужным модулям.',
+    'faq.q3': 'Есть ли учёт расходных материалов?', 'faq.a3': 'Да, отдельный модуль «Склад» — категории товаров, остатки, списание. Удобно видеть когда нужно заказывать новую партию.',
+    'faq.q4': 'Можно ли принимать оплату наличными и картой?', 'faq.a4': 'Да, касса поддерживает наличные, терминал и безналичный расчёт с контрагентом — всё видно в одной таблице ПКО/РКО.',
+    'faq.q5': 'Где хранятся данные?', 'faq.a5': 'В Firebase — вашем приватном облаке. Приложение работает и офлайн, синхронизируется при подключении к интернету.',
+    'faq.q6': 'Как отменить подписку?', 'faq.a6': 'В любой момент через Настройки → Подписка. Аккаунт переходит на FREE план, данные не удаляются.',
+    'cta.title': 'Готовы убрать блокнот и директ?', 'cta.sub': 'Установка занимает меньше минуты. Бесплатно, без карты.',
+    'cta.dl_win': 'Скачать для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Все права защищены.',
+  },
+  en: {
+    'nav.features': 'Features', 'nav.pricing': 'Pricing', 'nav.faq': 'FAQ', 'nav.back': '← All niches', 'nav.download': 'Download free',
+    'hero.badge': 'For beauty salons and studios',
+    'hero.title1': 'Your salon.', 'hero.title2': 'Schedule under control.',
+    'hero.sub': "Clients book their own time via a link, your stylist sees the schedule, the register tallies revenue per shift, and inventory shows how much dye or gel polish is left. No notebook, no Instagram DMs.",
+    'hero.dl_win': 'Download for Windows', 'hero.explore': "What's inside →",
+    'hero.trust1': 'Clients book themselves, online', 'hero.trust2': 'Register and inventory in one place', 'hero.trust3': 'Free plan forever',
+    'stats.modules': 'modules in the app', 'stats.niches': 'ready-made niches out of the box',
+    'stats.setup_num': '<2 min', 'stats.setup': 'from install to your first client', 'stats.free': 'free plan forever',
+    'features.tag': 'FOR BEAUTY SALONS', 'features.title': 'Everything that replaces a notebook, Instagram DMs, and an Excel inventory sheet',
+    'features.sub': 'Booking, schedule, register and inventory — in one app, built for your salon or studio.',
+    'feat.booking.title': 'Online booking via link',
+    'feat.booking.desc': "Clients pick their own stylist, service and free time slot — no calls, no DM back-and-forth. You set your working hours, and the booking shows up in the schedule instantly.",
+    'feat.booking.t1': 'Online booking', 'feat.booking.t2': 'Schedule',
+    'feat.clients.title': 'Clients & history',
+    'feat.clients.desc': "Each client's card: contacts, visit history, favorite services. Easily spot who hasn't been in for a while.",
+    'feat.cash.title': 'Shift register',
+    'feat.cash.desc': 'Cash orders with a choice of payment method — cash, terminal, or bank transfer. See how much you made today without manually counting receipts.',
+    'feat.services.title': 'Service & price catalog',
+    'feat.services.desc': "Service categories with prices that flow straight into bookings and receipts. Update your price list in one place.",
+    'feat.wh.title': 'Supply inventory',
+    'feat.wh.desc': "Track dye, polish, and supplies by category and stock level — so you never buy blind or run out mid-shift.",
+    'feat.wh.t1': 'Inventory', 'feat.wh.t2': 'Stock levels',
+    'sc.sec.title': 'Security without compromise',
+    'sc.sec.desc': "Salon client data is sensitive. WorkHub protects your account on multiple levels, not just a password.",
+    'sc.sec.l1': 'Two-factor authentication (Google Authenticator)',
+    'sc.sec.l2': 'Client passwords — AES-encrypted',
+    'sc.sec.l3': "Active sessions — see every device you've logged in from",
+    'sc.sec.l4': 'Data in Google Cloud (Firebase), not just on your disk',
+    'how.tag': 'HOW IT WORKS', 'how.title': 'From install to your first booking — 2 minutes',
+    'how.s1.title': 'Download & install', 'how.s1.desc': 'One .exe file. No admin rights, no dependencies, no registration.',
+    'how.s2.title': 'Pick the "Beauty Salon" niche', 'how.s2.desc': 'Schedule, online booking, services, register and inventory connect automatically.',
+    'how.s3.title': 'Send the link to your client', 'how.s3.desc': "They pick a time — it lands in your schedule, and the payment lands in the register.",
+    'pricing.tag': 'PRICING', 'pricing.title': 'Start for free', 'pricing.period': '/mo',
+    'pricing.sub': 'No credit card required. Cancel anytime. Data is never deleted.', 'pricing.popular': 'Most popular',
+    'pricing.free.desc': 'For getting started', 'pricing.free.1': 'Up to 50 clients', 'pricing.free.2': 'Schedule & online booking',
+    'pricing.free.3': 'Service catalog', 'pricing.free.4': '1 user', 'pricing.free.btn': 'Start for free',
+    'pricing.pro.desc': 'For active work', 'pricing.pro.1': 'Unlimited clients & bookings', 'pricing.pro.2': 'Register & inventory',
+    'pricing.pro.3': 'Client reminders', 'pricing.pro.4': 'Advanced analytics', 'pricing.pro.5': 'All modules', 'pricing.pro.btn': 'Get PRO',
+    'pricing.biz.desc': 'For multiple stylists or locations', 'pricing.biz.1': 'Everything in PRO', 'pricing.biz.2': 'Team up to 5 people',
+    'pricing.biz.3': 'Up to 3 separate businesses', 'pricing.biz.4': 'Priority support', 'pricing.biz.btn': 'Get BUSINESS',
+    'faq.tag': 'FAQ', 'faq.title': 'Frequently asked questions',
+    'faq.q1': 'Can clients see open slots online?', 'faq.a1': "Yes, clients follow the link, pick a stylist, service and free time slot — the booking shows up in your schedule instantly.",
+    'faq.q2': 'Can I have several stylists in one salon?', 'faq.a2': 'Yes, on the BUSINESS plan you can invite up to 5 staff members, each with their own schedule and module access.',
+    'faq.q3': 'Is there supply inventory tracking?', 'faq.a3': 'Yes, a dedicated "Inventory" module — categories, stock levels, write-offs. Easy to see when to reorder.',
+    'faq.q4': 'Can I accept cash and card payments?', 'faq.a4': 'Yes, the register supports cash, terminal, and bank transfer — all visible in one cash order table.',
+    'faq.q5': 'Where is my data stored?', 'faq.a5': "In Firebase — your private cloud. The app works offline too and syncs once you're back online.",
+    'faq.q6': 'How do I cancel my subscription?', 'faq.a6': 'Anytime via Settings → Subscription. The account reverts to the FREE plan, data is kept.',
+    'cta.title': 'Ready to ditch the notebook and DMs?', 'cta.sub': 'Installation takes under a minute. Free, no credit card.',
+    'cta.dl_win': 'Download for Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. All rights reserved.',
+  },
+}
+
+function applyLang(lang) {
+  const dict = T[lang] || T.uk
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const val = dict[el.dataset.i18n]
+    if (val !== undefined) el.textContent = val
+  })
+  document.documentElement.lang = lang
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang))
+  localStorage.setItem('wh-lang', lang)
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyLang(btn.dataset.lang))
+})
+
+;(function () {
+  const saved = localStorage.getItem('wh-lang')
+  const browser = navigator.language?.slice(0, 2)
+  const lang = saved || (['uk','ru','en'].includes(browser) ? browser : 'uk')
+  if (lang !== 'uk') applyLang(lang)
+})()
+
 (function scrollReveal() {
   const els = document.querySelectorAll('.section-head, .bento-card, .step-item, .price-card, .faq-item');
   els.forEach(el => el.classList.add('reveal'));
@@ -352,7 +538,11 @@ const DL_BTN_IDS = ['dl-win-nav', 'dl-win-hero', 'dl-win-cta'];
     const v = (data.tag_name || '').replace(/^v/, '');
     if (exe) DL_BTN_IDS.forEach(id => { const el = document.getElementById(id); if (el) el.href = exe.browser_download_url; });
     const meta = document.getElementById('dl-meta');
-    if (meta && v) meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · безкоштовно`;
+    if (meta && v) {
+      const lang = localStorage.getItem('wh-lang') || 'uk';
+      const period = lang === 'en' ? 'free' : lang === 'ru' ? 'бесплатно' : 'безкоштовно';
+      meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · ${period}`;
+    }
   } catch {}
 })();
 </script>

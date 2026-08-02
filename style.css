@@ -107,6 +107,11 @@ img { display: block; max-width: 100%; }
 }
 .nav-links a:hover, .nav-links a.active { color: var(--text); background: rgba(255,255,255,.05); }
 
+.lang-switcher { display:flex; gap:2px; background:rgba(255,255,255,.07); border-radius:8px; padding:3px; }
+.lang-btn { padding:4px 9px; border-radius:6px; font-size:12px; font-weight:700; color:rgba(255,255,255,.45); cursor:pointer; transition:all .15s; border:none; background:none; letter-spacing:.04em; }
+.lang-btn.active { background:rgba(255,255,255,.14); color:#fff; }
+.lang-btn:hover:not(.active) { color:rgba(255,255,255,.75); }
+
 /* ── Hero ── */
 .hero {
   position: relative; overflow: hidden;

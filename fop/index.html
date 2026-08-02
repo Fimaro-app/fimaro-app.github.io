@@ -20,12 +20,17 @@
       WorkHub
     </a>
     <nav class="nav-links">
-      <a href="#features">Можливості</a>
-      <a href="#pricing">Тарифи</a>
-      <a href="#faq">Питання</a>
-      <a href="../index.html">← Всі ніші</a>
+      <a href="#features" data-i18n="nav.features">Можливості</a>
+      <a href="#pricing" data-i18n="nav.pricing">Тарифи</a>
+      <a href="#faq" data-i18n="nav.faq">Питання</a>
+      <a href="../index.html" data-i18n="nav.back">← Всі ніші</a>
     </nav>
-    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav">Скачати безкоштовно</a>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="uk">UA</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav" data-i18n="nav.download">Скачати безкоштовно</a>
   </div>
 </header>
 
@@ -38,26 +43,26 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        <span>Для ФОП, бухгалтерів та фінансистів</span>
+        <span data-i18n="hero.badge">Для ФОП, бухгалтерів та фінансистів</span>
       </div>
       <h1>
-        Ваш ФОП.<br>
-        <span class="grad-text">Без хаосу в звітах.</span>
+        <span data-i18n="hero.title1">Ваш ФОП.</span><br>
+        <span class="grad-text" data-i18n="hero.title2">Без хаосу в звітах.</span>
       </h1>
-      <p class="hero-sub">
+      <p class="hero-sub" data-i18n="hero.sub">
         WorkHub рахує ЄСВ, ПДФО і ВЗ автоматично, друкує ПРРО-чеки, веде касу з ПКО/РКО і нагадує про кожен податковий дедлайн — щоб ви не гуглили ставки щомісяця.
       </p>
       <div class="hero-actions">
         <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-hero">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-          <span>Скачати для Windows</span>
+          <span data-i18n="hero.dl_win">Скачати для Windows</span>
         </a>
-        <a href="#features" class="btn btn-ghost btn-lg">Що всередині →</a>
+        <a href="#features" class="btn btn-ghost btn-lg" data-i18n="hero.explore">Що всередині →</a>
       </div>
       <div class="hero-trust">
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Податковий календар щомісяця</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> ЄСВ/ПДФО рахуються самі</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> ПРРО без окремого сервісу</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust1">Податковий календар щомісяця</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust2">ЄСВ/ПДФО рахуються самі</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust3">ПРРО без окремого сервісу</span></span>
       </div>
     </div>
 
@@ -75,19 +80,19 @@
 
 <div class="container">
   <div class="stats-row">
-    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label">модулів у застосунку</div></div>
-    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label">готові ніші з коробки</div></div>
-    <div class="stat-item"><div class="stat-num">&lt;2 хв</div><div class="stat-label">від встановлення до першого клієнта</div></div>
-    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label">безкоштовний план назавжди</div></div>
+    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label" data-i18n="stats.modules">модулів у застосунку</div></div>
+    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label" data-i18n="stats.niches">готові ніші з коробки</div></div>
+    <div class="stat-item"><div class="stat-num" data-i18n="stats.setup_num">&lt;2 хв</div><div class="stat-label" data-i18n="stats.setup">від встановлення до першого клієнта</div></div>
+    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label" data-i18n="stats.free">безкоштовний план назавжди</div></div>
   </div>
 </div>
 
 <section class="section" id="features">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ДЛЯ ФОП І БУХГАЛТЕРІВ</div>
-      <h2>Все, що зазвичай рахують в Excel — тут рахується само</h2>
-      <p class="section-sub">Каса, зарплата, ПРРО і звітність в одному застосунку, під українське законодавство.</p>
+      <div class="section-tag" data-i18n="features.tag">ДЛЯ ФОП І БУХГАЛТЕРІВ</div>
+      <h2 data-i18n="features.title">Все, що зазвичай рахують в Excel — тут рахується само</h2>
+      <p class="section-sub" data-i18n="features.sub">Каса, зарплата, ПРРО і звітність в одному застосунку, під українське законодавство.</p>
     </div>
 
     <div class="features-bento">
@@ -96,42 +101,42 @@
         <div class="bento-icon" style="color:#38BDF8">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M6 12h.01M18 12h.01"/></svg>
         </div>
-        <h3>Каса, банк і зарплата</h3>
-        <p>ПКО/РКО з автонумерацією, ПДВ 20% і акциз 5% рахуються живим розрахунком. Нарахування зарплати з автоматичним ПДФО 18%, ВЗ 5% і ЄСВ 22%, пропорційно відпрацьованим дням. Виплата авансу чи ЗП одразу створює РКО в касі.</p>
-        <div class="bento-tags"><span>Каса</span><span>Банк</span><span>Зарплата</span><span>ПРРО</span></div>
+        <h3 data-i18n="feat.cash.title">Каса, банк і зарплата</h3>
+        <p data-i18n="feat.cash.desc">ПКО/РКО з автонумерацією, ПДВ 20% і акциз 5% рахуються живим розрахунком. Нарахування зарплати з автоматичним ПДФО 18%, ВЗ 5% і ЄСВ 22%, пропорційно відпрацьованим дням. Виплата авансу чи ЗП одразу створює РКО в касі.</p>
+        <div class="bento-tags"><span data-i18n="feat.cash.t1">Каса</span><span data-i18n="feat.cash.t2">Банк</span><span data-i18n="feat.cash.t3">Зарплата</span><span>ПРРО</span></div>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#F59E0B">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         </div>
-        <h3>Податковий календар</h3>
-        <p>Дедлайни ЄСВ, ЄП, ПДВ, ПДФО і ВЗ — з нагадуванням заздалегідь. Більше не треба тримати дати в голові чи гуглити щокварталу.</p>
+        <h3 data-i18n="feat.tax.title">Податковий календар</h3>
+        <p data-i18n="feat.tax.desc">Дедлайни ЄСВ, ЄП, ПДВ, ПДФО і ВЗ — з нагадуванням заздалегідь. Більше не треба тримати дати в голові чи гуглити щокварталу.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#22C55E">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         </div>
-        <h3>ПРРО (Checkbox Ukraine)</h3>
-        <p>Фіскальні чеки, зміни та Z-звіти прямо з застосунку. Без окремого кабінету і додаткової плати за інтеграцію.</p>
+        <h3 data-i18n="feat.prro.title">ПРРО (Checkbox Ukraine)</h3>
+        <p data-i18n="feat.prro.desc">Фіскальні чеки, зміни та Z-звіти прямо з застосунку. Без окремого кабінету і додаткової плати за інтеграцію.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#7C5CFC">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Клієнти та рахунки</h3>
-        <p>Реквізити ЄДРПОУ/ІПН, IBAN, юридична адреса — прямо в картці клієнта. PDF-рахунки і договори з вашим бізнес-профілем.</p>
+        <h3 data-i18n="feat.clients.title">Клієнти та рахунки</h3>
+        <p data-i18n="feat.clients.desc">Реквізити ЄДРПОУ/ІПН, IBAN, юридична адреса — прямо в картці клієнта. PDF-рахунки і договори з вашим бізнес-профілем.</p>
       </div>
 
       <div class="bento-card bento-wide">
         <div class="bento-icon" style="color:#F472B6">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Кадри без окремого HR-сервісу</h3>
-        <p>Особові картки співробітників, накази про прийняття з автонумерацією, звільнення з довідником статей КЗпП — усе одразу друкується в PDF.</p>
-        <div class="bento-tags"><span>HR</span><span>Накази</span><span>Особові картки</span></div>
+        <h3 data-i18n="feat.hr.title">Кадри без окремого HR-сервісу</h3>
+        <p data-i18n="feat.hr.desc">Особові картки співробітників, накази про прийняття з автонумерацією, звільнення з довідником статей КЗпП — усе одразу друкується в PDF.</p>
+        <div class="bento-tags"><span>HR</span><span data-i18n="feat.hr.t2">Накази</span><span data-i18n="feat.hr.t3">Особові картки</span></div>
       </div>
 
     </div>
@@ -145,8 +150,8 @@
         <img src="../calendar.jpg" alt="Календар платежів WorkHub — всі майбутні надходження, витрати, зарплати й податки в одному списку">
       </div>
       <div class="showcase-text">
-        <h3>Календар платежів</h3>
-        <p>Усі майбутні надходження, витрати, зарплати й податки — в одному списку, з датами і статусом "прострочено / через N днів". Щоб планувати наперед, а не дізнаватись про дедлайн в останній день.</p>
+        <h3 data-i18n="sc.cal.title">Календар платежів</h3>
+        <p data-i18n="sc.cal.desc">Усі майбутні надходження, витрати, зарплати й податки — в одному списку, з датами і статусом "прострочено / через N днів". Щоб планувати наперед, а не дізнаватись про дедлайн в останній день.</p>
       </div>
     </div>
   </div>
@@ -155,26 +160,26 @@
 <section class="section" id="how">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ЯК ЦЕ ПРАЦЮЄ</div>
-      <h2>Від встановлення до першого звіту — 2 хвилини</h2>
+      <div class="section-tag" data-i18n="how.tag">ЯК ЦЕ ПРАЦЮЄ</div>
+      <h2 data-i18n="how.title">Від встановлення до першого звіту — 2 хвилини</h2>
     </div>
     <div class="steps-row">
       <div class="step-item">
         <div class="step-num">01</div>
-        <h3>Завантаж і встанови</h3>
-        <p>Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
+        <h3 data-i18n="how.s1.title">Завантаж і встанови</h3>
+        <p data-i18n="how.s1.desc">Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">02</div>
-        <h3>Обери нішу «Бухгалтер / ФОП»</h3>
-        <p>Каса, банк, зарплата, ПРРО і податковий календар підключаться автоматично.</p>
+        <h3 data-i18n="how.s2.title">Обери нішу «Бухгалтер / ФОП»</h3>
+        <p data-i18n="how.s2.desc">Каса, банк, зарплата, ПРРО і податковий календар підключаться автоматично.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">03</div>
-        <h3>Заведи перший ПКО</h3>
-        <p>Або нарахуй зарплату — все одразу порахує податки і створить проведення в касі.</p>
+        <h3 data-i18n="how.s3.title">Заведи перший ПКО</h3>
+        <p data-i18n="how.s3.desc">Або нарахуй зарплату — все одразу порахує податки і створить проведення в касі.</p>
       </div>
     </div>
   </div>
@@ -183,52 +188,52 @@
 <section class="section section-dim" id="pricing">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ТАРИФИ</div>
-      <h2>Почни безкоштовно</h2>
-      <p class="section-sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
+      <div class="section-tag" data-i18n="pricing.tag">ТАРИФИ</div>
+      <h2 data-i18n="pricing.title">Почни безкоштовно</h2>
+      <p class="section-sub" data-i18n="pricing.sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
     </div>
 
     <div class="pricing-row">
 
       <div class="price-card">
         <div class="price-tier">FREE</div>
-        <div class="price-amount">₴0<span>/міс</span></div>
-        <p class="price-desc">Для старту та ознайомлення</p>
+        <div class="price-amount">₴0<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.free.desc">Для старту та ознайомлення</p>
         <ul class="price-list">
-          <li>До 50 клієнтів</li>
-          <li>До 20 рахунків на місяць</li>
-          <li>Каса, банк, зарплата</li>
-          <li>1 користувач</li>
+          <li data-i18n="pricing.free.1">До 50 клієнтів</li>
+          <li data-i18n="pricing.free.2">До 20 рахунків на місяць</li>
+          <li data-i18n="pricing.free.3">Каса, банк, зарплата</li>
+          <li data-i18n="pricing.free.4">1 користувач</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Почати безкоштовно</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.free.btn">Почати безкоштовно</a>
       </div>
 
       <div class="price-card price-featured">
-        <div class="price-popular">Найпопулярніший</div>
+        <div class="price-popular" data-i18n="pricing.popular">Найпопулярніший</div>
         <div class="price-tier" style="color:#7C5CFC">PRO</div>
-        <div class="price-amount">₴299<span>/міс</span></div>
-        <p class="price-desc">Для активної роботи</p>
+        <div class="price-amount">₴299<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.pro.desc">Для активної роботи</p>
         <ul class="price-list">
-          <li>Необмежено клієнтів і рахунків</li>
-          <li>ПРРО та податковий календар</li>
-          <li>Повторювані рахунки</li>
-          <li>Розширена аналітика</li>
-          <li>Всі модулі</li>
+          <li data-i18n="pricing.pro.1">Необмежено клієнтів і рахунків</li>
+          <li data-i18n="pricing.pro.2">ПРРО та податковий календар</li>
+          <li data-i18n="pricing.pro.3">Повторювані рахунки</li>
+          <li data-i18n="pricing.pro.4">Розширена аналітика</li>
+          <li data-i18n="pricing.pro.5">Всі модулі</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block">Обрати PRO</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block" data-i18n="pricing.pro.btn">Обрати PRO</a>
       </div>
 
       <div class="price-card">
         <div class="price-tier" style="color:#A78BFA">BUSINESS</div>
-        <div class="price-amount">₴799<span>/міс</span></div>
-        <p class="price-desc">Для кількох ФОП або команди</p>
+        <div class="price-amount">₴799<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.biz.desc">Для кількох ФОП або команди</p>
         <ul class="price-list">
-          <li>Все з PRO</li>
-          <li>Команда до 5 осіб</li>
-          <li>До 3 окремих бізнесів</li>
-          <li>Пріоритетна підтримка</li>
+          <li data-i18n="pricing.biz.1">Все з PRO</li>
+          <li data-i18n="pricing.biz.2">Команда до 5 осіб</li>
+          <li data-i18n="pricing.biz.3">До 3 окремих бізнесів</li>
+          <li data-i18n="pricing.biz.4">Пріоритетна підтримка</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Обрати BUSINESS</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.biz.btn">Обрати BUSINESS</a>
       </div>
 
     </div>
@@ -238,33 +243,33 @@
 <section class="section" id="faq">
   <div class="container container-narrow">
     <div class="section-head">
-      <div class="section-tag">ПИТАННЯ</div>
-      <h2>Часті запитання</h2>
+      <div class="section-tag" data-i18n="faq.tag">ПИТАННЯ</div>
+      <h2 data-i18n="faq.title">Часті запитання</h2>
     </div>
     <div class="faq-list">
       <details class="faq-item" open>
-        <summary>Чи замінює WorkHub бухгалтера?</summary>
-        <p>Ні, WorkHub не подає звіти в податкову замість вас. Він рахує суми (ЄСВ, ПДФО, ВЗ), веде касу і нагадує про дедлайни — щоб бухгалтеру чи вам самим було на чому будувати звітність, без ручного перерахунку в Excel.</p>
+        <summary data-i18n="faq.q1">Чи замінює WorkHub бухгалтера?</summary>
+        <p data-i18n="faq.a1">Ні, WorkHub не подає звіти в податкову замість вас. Він рахує суми (ЄСВ, ПДФО, ВЗ), веде касу і нагадує про дедлайни — щоб бухгалтеру чи вам самим було на чому будувати звітність, без ручного перерахунку в Excel.</p>
       </details>
       <details class="faq-item">
-        <summary>Які податки рахуються автоматично?</summary>
-        <p>ПДФО 18%, військовий збір 5% і ЄСВ 22% при нарахуванні зарплати, а також ПДВ 20% і акциз 5% в касовій книзі, якщо сума їх включає.</p>
+        <summary data-i18n="faq.q2">Які податки рахуються автоматично?</summary>
+        <p data-i18n="faq.a2">ПДФО 18%, військовий збір 5% і ЄСВ 22% при нарахуванні зарплати, а також ПДВ 20% і акциз 5% в касовій книзі, якщо сума їх включає.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи працює інтеграція з ПРРО?</summary>
-        <p>Так, вбудований модуль ПРРО через Checkbox Ukraine: фіскальні чеки, зміни і Z-звіти прямо з застосунку.</p>
+        <summary data-i18n="faq.q3">Чи працює інтеграція з ПРРО?</summary>
+        <p data-i18n="faq.a3">Так, вбудований модуль ПРРО через Checkbox Ukraine: фіскальні чеки, зміни і Z-звіти прямо з застосунку.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи можна вести кілька ФОП в одному акаунті?</summary>
-        <p>Так, на плані BUSINESS — до 3 окремих бізнесів з власною касою, клієнтами і звітністю в межах одного акаунту.</p>
+        <summary data-i18n="faq.q4">Чи можна вести кілька ФОП в одному акаунті?</summary>
+        <p data-i18n="faq.a4">Так, на плані BUSINESS — до 3 окремих бізнесів з власною касою, клієнтами і звітністю в межах одного акаунту.</p>
       </details>
       <details class="faq-item">
-        <summary>Де зберігаються дані?</summary>
-        <p>У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
+        <summary data-i18n="faq.q5">Де зберігаються дані?</summary>
+        <p data-i18n="faq.a5">У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
       </details>
       <details class="faq-item">
-        <summary>Як скасувати підписку?</summary>
-        <p>В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
+        <summary data-i18n="faq.q6">Як скасувати підписку?</summary>
+        <p data-i18n="faq.a6">В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
       </details>
     </div>
   </div>
@@ -273,12 +278,12 @@
 <section class="cta-section">
   <div class="cta-glow"></div>
   <div class="container cta-inner">
-    <h2>Готові прибрати хаос у звітах?</h2>
-    <p>Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
+    <h2 data-i18n="cta.title">Готові прибрати хаос у звітах?</h2>
+    <p data-i18n="cta.sub">Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
     <div class="cta-actions">
       <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-cta">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-        <span>Завантажити для Windows</span>
+        <span data-i18n="cta.dl_win">Завантажити для Windows</span>
       </a>
     </div>
     <p class="cta-meta" id="dl-meta"></p>
@@ -291,7 +296,7 @@
       <div class="brand-logo">W</div>
       WorkHub
     </a>
-    <p class="footer-copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
+    <p class="footer-copy" data-i18n="footer.copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
     <div class="footer-links">
       <a href="https://t.me/workhubapp" target="_blank" rel="noopener" title="Telegram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12s5.15 11.5 11.5 11.5S23.5 18.35 23.5 12 18.35.5 12 .5zm5.4 7.9l-1.9 9.05c-.14.64-.52.79-1.05.49l-2.9-2.14-1.4 1.35c-.16.16-.29.29-.59.29l.21-2.99 5.44-4.92c.24-.21-.05-.33-.36-.12l-6.73 4.24-2.9-.91c-.63-.2-.64-.63.13-.93l11.34-4.37c.52-.19.98.13.71 1.3z"/></svg>
@@ -307,6 +312,178 @@
 </footer>
 
 <script>
+const T = {
+  uk: {
+    'nav.features': 'Можливості', 'nav.pricing': 'Тарифи', 'nav.faq': 'Питання', 'nav.back': '← Всі ніші', 'nav.download': 'Скачати безкоштовно',
+    'hero.badge': 'Для ФОП, бухгалтерів та фінансистів',
+    'hero.title1': 'Ваш ФОП.', 'hero.title2': 'Без хаосу в звітах.',
+    'hero.sub': 'WorkHub рахує ЄСВ, ПДФО і ВЗ автоматично, друкує ПРРО-чеки, веде касу з ПКО/РКО і нагадує про кожен податковий дедлайн — щоб ви не гуглили ставки щомісяця.',
+    'hero.dl_win': 'Скачати для Windows', 'hero.explore': 'Що всередині →',
+    'hero.trust1': 'Податковий календар щомісяця', 'hero.trust2': 'ЄСВ/ПДФО рахуються самі', 'hero.trust3': 'ПРРО без окремого сервісу',
+    'stats.modules': 'модулів у застосунку', 'stats.niches': 'готові ніші з коробки',
+    'stats.setup_num': '<2 хв', 'stats.setup': 'від встановлення до першого клієнта', 'stats.free': 'безкоштовний план назавжди',
+    'features.tag': 'ДЛЯ ФОП І БУХГАЛТЕРІВ', 'features.title': 'Все, що зазвичай рахують в Excel — тут рахується само',
+    'features.sub': 'Каса, зарплата, ПРРО і звітність в одному застосунку, під українське законодавство.',
+    'feat.cash.title': 'Каса, банк і зарплата',
+    'feat.cash.desc': 'ПКО/РКО з автонумерацією, ПДВ 20% і акциз 5% рахуються живим розрахунком. Нарахування зарплати з автоматичним ПДФО 18%, ВЗ 5% і ЄСВ 22%, пропорційно відпрацьованим дням. Виплата авансу чи ЗП одразу створює РКО в касі.',
+    'feat.cash.t1': 'Каса', 'feat.cash.t2': 'Банк', 'feat.cash.t3': 'Зарплата',
+    'feat.tax.title': 'Податковий календар',
+    'feat.tax.desc': 'Дедлайни ЄСВ, ЄП, ПДВ, ПДФО і ВЗ — з нагадуванням заздалегідь. Більше не треба тримати дати в голові чи гуглити щокварталу.',
+    'feat.prro.title': 'ПРРО (Checkbox Ukraine)',
+    'feat.prro.desc': 'Фіскальні чеки, зміни та Z-звіти прямо з застосунку. Без окремого кабінету і додаткової плати за інтеграцію.',
+    'feat.clients.title': 'Клієнти та рахунки',
+    'feat.clients.desc': 'Реквізити ЄДРПОУ/ІПН, IBAN, юридична адреса — прямо в картці клієнта. PDF-рахунки і договори з вашим бізнес-профілем.',
+    'feat.hr.title': 'Кадри без окремого HR-сервісу',
+    'feat.hr.desc': 'Особові картки співробітників, накази про прийняття з автонумерацією, звільнення з довідником статей КЗпП — усе одразу друкується в PDF.',
+    'feat.hr.t2': 'Накази', 'feat.hr.t3': 'Особові картки',
+    'sc.cal.title': 'Календар платежів',
+    'sc.cal.desc': 'Усі майбутні надходження, витрати, зарплати й податки — в одному списку, з датами і статусом "прострочено / через N днів". Щоб планувати наперед, а не дізнаватись про дедлайн в останній день.',
+    'how.tag': 'ЯК ЦЕ ПРАЦЮЄ', 'how.title': 'Від встановлення до першого звіту — 2 хвилини',
+    'how.s1.title': 'Завантаж і встанови', 'how.s1.desc': 'Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.',
+    'how.s2.title': 'Обери нішу «Бухгалтер / ФОП»', 'how.s2.desc': 'Каса, банк, зарплата, ПРРО і податковий календар підключаться автоматично.',
+    'how.s3.title': 'Заведи перший ПКО', 'how.s3.desc': 'Або нарахуй зарплату — все одразу порахує податки і створить проведення в касі.',
+    'pricing.tag': 'ТАРИФИ', 'pricing.title': 'Почни безкоштовно', 'pricing.period': '/міс',
+    'pricing.sub': "Без прив'язки картки. Скасування в один клік. Дані не видаляються.", 'pricing.popular': 'Найпопулярніший',
+    'pricing.free.desc': 'Для старту та ознайомлення', 'pricing.free.1': 'До 50 клієнтів', 'pricing.free.2': 'До 20 рахунків на місяць',
+    'pricing.free.3': 'Каса, банк, зарплата', 'pricing.free.4': '1 користувач', 'pricing.free.btn': 'Почати безкоштовно',
+    'pricing.pro.desc': 'Для активної роботи', 'pricing.pro.1': 'Необмежено клієнтів і рахунків', 'pricing.pro.2': 'ПРРО та податковий календар',
+    'pricing.pro.3': 'Повторювані рахунки', 'pricing.pro.4': 'Розширена аналітика', 'pricing.pro.5': 'Всі модулі', 'pricing.pro.btn': 'Обрати PRO',
+    'pricing.biz.desc': 'Для кількох ФОП або команди', 'pricing.biz.1': 'Все з PRO', 'pricing.biz.2': 'Команда до 5 осіб',
+    'pricing.biz.3': 'До 3 окремих бізнесів', 'pricing.biz.4': 'Пріоритетна підтримка', 'pricing.biz.btn': 'Обрати BUSINESS',
+    'faq.tag': 'ПИТАННЯ', 'faq.title': 'Часті запитання',
+    'faq.q1': 'Чи замінює WorkHub бухгалтера?',
+    'faq.a1': 'Ні, WorkHub не подає звіти в податкову замість вас. Він рахує суми (ЄСВ, ПДФО, ВЗ), веде касу і нагадує про дедлайни — щоб бухгалтеру чи вам самим було на чому будувати звітність, без ручного перерахунку в Excel.',
+    'faq.q2': 'Які податки рахуються автоматично?', 'faq.a2': 'ПДФО 18%, військовий збір 5% і ЄСВ 22% при нарахуванні зарплати, а також ПДВ 20% і акциз 5% в касовій книзі, якщо сума їх включає.',
+    'faq.q3': 'Чи працює інтеграція з ПРРО?', 'faq.a3': 'Так, вбудований модуль ПРРО через Checkbox Ukraine: фіскальні чеки, зміни і Z-звіти прямо з застосунку.',
+    'faq.q4': 'Чи можна вести кілька ФОП в одному акаунті?', 'faq.a4': 'Так, на плані BUSINESS — до 3 окремих бізнесів з власною касою, клієнтами і звітністю в межах одного акаунту.',
+    'faq.q5': 'Де зберігаються дані?', 'faq.a5': 'У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.',
+    'faq.q6': 'Як скасувати підписку?', 'faq.a6': 'В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.',
+    'cta.title': 'Готові прибрати хаос у звітах?', 'cta.sub': 'Встановлення займає менше хвилини. Безкоштовно, без картки.',
+    'cta.dl_win': 'Завантажити для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Усі права захищені.',
+  },
+  ru: {
+    'nav.features': 'Возможности', 'nav.pricing': 'Тарифы', 'nav.faq': 'Вопросы', 'nav.back': '← Все ниши', 'nav.download': 'Скачать бесплатно',
+    'hero.badge': 'Для ФЛП, бухгалтеров и финансистов',
+    'hero.title1': 'Ваш ФЛП.', 'hero.title2': 'Без хаоса в отчётах.',
+    'hero.sub': 'WorkHub считает ЕСВ, НДФЛ и ВС автоматически, печатает ПРРО-чеки, ведёт кассу с ПКО/РКО и напоминает о каждом налоговом дедлайне — чтобы вы не гуглили ставки каждый месяц.',
+    'hero.dl_win': 'Скачать для Windows', 'hero.explore': 'Что внутри →',
+    'hero.trust1': 'Налоговый календарь каждый месяц', 'hero.trust2': 'ЕСВ/НДФЛ считаются сами', 'hero.trust3': 'ПРРО без отдельного сервиса',
+    'stats.modules': 'модулей в приложении', 'stats.niches': 'готовые ниши из коробки',
+    'stats.setup_num': '<2 мин', 'stats.setup': 'от установки до первого клиента', 'stats.free': 'бесплатный план навсегда',
+    'features.tag': 'ДЛЯ ФЛП И БУХГАЛТЕРОВ', 'features.title': 'Всё, что обычно считают в Excel — тут считается само',
+    'features.sub': 'Касса, зарплата, ПРРО и отчётность в одном приложении, под украинское законодательство.',
+    'feat.cash.title': 'Касса, банк и зарплата',
+    'feat.cash.desc': 'ПКО/РКО с автонумерацией, НДС 20% и акциз 5% считаются живым расчётом. Начисление зарплаты с автоматическим НДФЛ 18%, ВС 5% и ЕСВ 22%, пропорционально отработанным дням. Выплата аванса или ЗП сразу создаёт РКО в кассе.',
+    'feat.cash.t1': 'Касса', 'feat.cash.t2': 'Банк', 'feat.cash.t3': 'Зарплата',
+    'feat.tax.title': 'Налоговый календарь',
+    'feat.tax.desc': 'Дедлайны ЕСВ, ЕН, НДС, НДФЛ и ВС — с напоминанием заранее. Больше не нужно держать даты в голове или гуглить каждый квартал.',
+    'feat.prro.title': 'ПРРО (Checkbox Ukraine)',
+    'feat.prro.desc': 'Фискальные чеки, смены и Z-отчёты прямо из приложения. Без отдельного кабинета и дополнительной платы за интеграцию.',
+    'feat.clients.title': 'Клиенты и счета',
+    'feat.clients.desc': 'Реквизиты ЕГРПОУ/ИНН, IBAN, юридический адрес — прямо в карточке клиента. PDF-счета и договоры с вашим бизнес-профилем.',
+    'feat.hr.title': 'Кадры без отдельного HR-сервиса',
+    'feat.hr.desc': 'Личные карточки сотрудников, приказы о приёме с автонумерацией, увольнение со справочником статей КЗоТ — всё сразу печатается в PDF.',
+    'feat.hr.t2': 'Приказы', 'feat.hr.t3': 'Личные карточки',
+    'sc.cal.title': 'Календарь платежей',
+    'sc.cal.desc': 'Все будущие поступления, расходы, зарплаты и налоги — в одном списке, с датами и статусом "просрочено / через N дней". Чтобы планировать заранее, а не узнавать о дедлайне в последний день.',
+    'how.tag': 'КАК ЭТО РАБОТАЕТ', 'how.title': 'От установки до первого отчёта — 2 минуты',
+    'how.s1.title': 'Скачай и установи', 'how.s1.desc': 'Один .exe файл. Без прав администратора, без зависимостей, без регистрации.',
+    'how.s2.title': 'Выбери нишу «Бухгалтер / ФЛП»', 'how.s2.desc': 'Касса, банк, зарплата, ПРРО и налоговый календарь подключатся автоматически.',
+    'how.s3.title': 'Заведи первый ПКО', 'how.s3.desc': 'Или начисли зарплату — всё сразу посчитает налоги и создаст проводку в кассе.',
+    'pricing.tag': 'ТАРИФЫ', 'pricing.title': 'Начни бесплатно', 'pricing.period': '/мес',
+    'pricing.sub': 'Без привязки карты. Отмена в один клик. Данные не удаляются.', 'pricing.popular': 'Самый популярный',
+    'pricing.free.desc': 'Для старта и знакомства', 'pricing.free.1': 'До 50 клиентов', 'pricing.free.2': 'До 20 счетов в месяц',
+    'pricing.free.3': 'Касса, банк, зарплата', 'pricing.free.4': '1 пользователь', 'pricing.free.btn': 'Начать бесплатно',
+    'pricing.pro.desc': 'Для активной работы', 'pricing.pro.1': 'Безлимитные клиенты и счета', 'pricing.pro.2': 'ПРРО и налоговый календарь',
+    'pricing.pro.3': 'Повторяющиеся счета', 'pricing.pro.4': 'Расширенная аналитика', 'pricing.pro.5': 'Все модули', 'pricing.pro.btn': 'Выбрать PRO',
+    'pricing.biz.desc': 'Для нескольких ФЛП или команды', 'pricing.biz.1': 'Всё из PRO', 'pricing.biz.2': 'Команда до 5 человек',
+    'pricing.biz.3': 'До 3 отдельных бизнесов', 'pricing.biz.4': 'Приоритетная поддержка', 'pricing.biz.btn': 'Выбрать BUSINESS',
+    'faq.tag': 'ВОПРОСЫ', 'faq.title': 'Частые вопросы',
+    'faq.q1': 'Заменяет ли WorkHub бухгалтера?',
+    'faq.a1': 'Нет, WorkHub не подаёт отчёты в налоговую вместо вас. Он считает суммы (ЕСВ, НДФЛ, ВС), ведёт кассу и напоминает о дедлайнах — чтобы бухгалтеру или вам самим было на чём строить отчётность, без ручного пересчёта в Excel.',
+    'faq.q2': 'Какие налоги считаются автоматически?', 'faq.a2': 'НДФЛ 18%, военный сбор 5% и ЕСВ 22% при начислении зарплаты, а также НДС 20% и акциз 5% в кассовой книге, если сумма их включает.',
+    'faq.q3': 'Работает ли интеграция с ПРРО?', 'faq.a3': 'Да, встроенный модуль ПРРО через Checkbox Ukraine: фискальные чеки, смены и Z-отчёты прямо из приложения.',
+    'faq.q4': 'Можно ли вести несколько ФЛП в одном аккаунте?', 'faq.a4': 'Да, на плане BUSINESS — до 3 отдельных бизнесов с собственной кассой, клиентами и отчётностью в рамках одного аккаунта.',
+    'faq.q5': 'Где хранятся данные?', 'faq.a5': 'В Firebase — вашем приватном облаке. Приложение работает и офлайн, синхронизируется при подключении к интернету.',
+    'faq.q6': 'Как отменить подписку?', 'faq.a6': 'В любой момент через Настройки → Подписка. Аккаунт переходит на FREE план, данные не удаляются.',
+    'cta.title': 'Готовы убрать хаос в отчётах?', 'cta.sub': 'Установка занимает меньше минуты. Бесплатно, без карты.',
+    'cta.dl_win': 'Скачать для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Все права защищены.',
+  },
+  en: {
+    'nav.features': 'Features', 'nav.pricing': 'Pricing', 'nav.faq': 'FAQ', 'nav.back': '← All niches', 'nav.download': 'Download free',
+    'hero.badge': 'For sole proprietors, accountants & bookkeepers',
+    'hero.title1': 'Your business.', 'hero.title2': 'No more reporting chaos.',
+    'hero.sub': "WorkHub calculates payroll and income taxes automatically, prints fiscal receipts, keeps a cash book, and reminds you of every tax deadline — so you don't have to google the rates every month.",
+    'hero.dl_win': 'Download for Windows', 'hero.explore': "What's inside →",
+    'hero.trust1': 'Tax calendar every month', 'hero.trust2': 'Taxes calculate themselves', 'hero.trust3': 'Fiscal receipts, no separate service',
+    'stats.modules': 'modules in the app', 'stats.niches': 'ready-made niches out of the box',
+    'stats.setup_num': '<2 min', 'stats.setup': 'from install to your first client', 'stats.free': 'free plan forever',
+    'features.tag': 'FOR ACCOUNTANTS & SOLE PROPRIETORS', 'features.title': "Everything you'd normally track in Excel — calculated for you",
+    'features.sub': 'Cash book, payroll, fiscal receipts and reporting in one app, built for Ukrainian regulations.',
+    'feat.cash.title': 'Cash book, bank & payroll',
+    'feat.cash.desc': 'Auto-numbered cash orders, live VAT 20% and excise 5% calculation. Payroll with automatic income tax, military levy and social contribution, prorated to days worked. Paying an advance or salary instantly creates a cash order.',
+    'feat.cash.t1': 'Cash book', 'feat.cash.t2': 'Bank', 'feat.cash.t3': 'Payroll',
+    'feat.tax.title': 'Tax calendar',
+    'feat.tax.desc': 'All your tax deadlines with advance reminders. No more keeping dates in your head or googling them every quarter.',
+    'feat.prro.title': 'Fiscal receipts (Checkbox Ukraine)',
+    'feat.prro.desc': 'Fiscal receipts, shifts and Z-reports right from the app. No separate account, no extra integration fee.',
+    'feat.clients.title': 'Clients & invoices',
+    'feat.clients.desc': "Tax ID, IBAN, legal address — right in the client card. PDF invoices and contracts with your business profile.",
+    'feat.hr.title': 'HR without a separate service',
+    'feat.hr.desc': 'Employee records, auto-numbered hiring orders, dismissal with a labor-code reference — everything prints straight to PDF.',
+    'feat.hr.t2': 'Orders', 'feat.hr.t3': 'Employee records',
+    'sc.cal.title': 'Payment calendar',
+    'sc.cal.desc': 'All upcoming income, expenses, payroll and taxes — in one list, with dates and an "overdue / in N days" status. Plan ahead instead of finding out about a deadline on the last day.',
+    'how.tag': 'HOW IT WORKS', 'how.title': 'From install to your first report — 2 minutes',
+    'how.s1.title': 'Download & install', 'how.s1.desc': 'One .exe file. No admin rights, no dependencies, no registration.',
+    'how.s2.title': 'Pick the "Accountant / FOP" niche', 'how.s2.desc': 'Cash book, bank, payroll, fiscal receipts and tax calendar connect automatically.',
+    'how.s3.title': 'Create your first cash order', 'how.s3.desc': 'Or run payroll — taxes are calculated and the cash book entry is created instantly.',
+    'pricing.tag': 'PRICING', 'pricing.title': 'Start for free', 'pricing.period': '/mo',
+    'pricing.sub': 'No credit card required. Cancel anytime. Data is never deleted.', 'pricing.popular': 'Most popular',
+    'pricing.free.desc': 'For getting started', 'pricing.free.1': 'Up to 50 clients', 'pricing.free.2': 'Up to 20 invoices/month',
+    'pricing.free.3': 'Cash book, bank, payroll', 'pricing.free.4': '1 user', 'pricing.free.btn': 'Start for free',
+    'pricing.pro.desc': 'For active work', 'pricing.pro.1': 'Unlimited clients & invoices', 'pricing.pro.2': 'Fiscal receipts & tax calendar',
+    'pricing.pro.3': 'Recurring invoices', 'pricing.pro.4': 'Advanced analytics', 'pricing.pro.5': 'All modules', 'pricing.pro.btn': 'Get PRO',
+    'pricing.biz.desc': 'For multiple businesses or a team', 'pricing.biz.1': 'Everything in PRO', 'pricing.biz.2': 'Team up to 5 people',
+    'pricing.biz.3': 'Up to 3 separate businesses', 'pricing.biz.4': 'Priority support', 'pricing.biz.btn': 'Get BUSINESS',
+    'faq.tag': 'FAQ', 'faq.title': 'Frequently asked questions',
+    'faq.q1': 'Does WorkHub replace an accountant?',
+    'faq.a1': "No, WorkHub doesn't file reports with the tax office for you. It calculates amounts, keeps a cash book, and reminds you of deadlines — so you or your accountant have something solid to build reporting on, instead of recalculating in Excel by hand.",
+    'faq.q2': 'Which taxes are calculated automatically?', 'faq.a2': 'Income tax, military levy and social contribution when running payroll, plus VAT and excise in the cash book if the amount includes them.',
+    'faq.q3': 'Does the fiscal receipt integration work?', 'faq.a3': 'Yes, a built-in module via Checkbox Ukraine: fiscal receipts, shifts and Z-reports right from the app.',
+    'faq.q4': 'Can I run multiple businesses in one account?', 'faq.a4': 'Yes, on the BUSINESS plan — up to 3 separate businesses with their own cash book, clients and reporting.',
+    'faq.q5': 'Where is my data stored?', 'faq.a5': 'In Firebase — your private cloud. The app works offline too and syncs once you\'re back online.',
+    'faq.q6': 'How do I cancel my subscription?', 'faq.a6': 'Anytime via Settings → Subscription. The account reverts to the FREE plan, data is kept.',
+    'cta.title': 'Ready to clear the reporting chaos?', 'cta.sub': 'Installation takes under a minute. Free, no credit card.',
+    'cta.dl_win': 'Download for Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. All rights reserved.',
+  },
+}
+
+function applyLang(lang) {
+  const dict = T[lang] || T.uk
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const val = dict[el.dataset.i18n]
+    if (val !== undefined) el.textContent = val
+  })
+  document.documentElement.lang = lang
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang))
+  localStorage.setItem('wh-lang', lang)
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyLang(btn.dataset.lang))
+})
+
+;(function () {
+  const saved = localStorage.getItem('wh-lang')
+  const browser = navigator.language?.slice(0, 2)
+  const lang = saved || (['uk','ru','en'].includes(browser) ? browser : 'uk')
+  if (lang !== 'uk') applyLang(lang)
+})()
+
 (function scrollReveal() {
   const els = document.querySelectorAll('.section-head, .bento-card, .step-item, .price-card, .faq-item');
   els.forEach(el => el.classList.add('reveal'));
@@ -333,7 +510,11 @@ const DL_BTN_IDS = ['dl-win-nav', 'dl-win-hero', 'dl-win-cta'];
     const v = (data.tag_name || '').replace(/^v/, '');
     if (exe) DL_BTN_IDS.forEach(id => { const el = document.getElementById(id); if (el) el.href = exe.browser_download_url; });
     const meta = document.getElementById('dl-meta');
-    if (meta && v) meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · безкоштовно`;
+    if (meta && v) {
+      const lang = localStorage.getItem('wh-lang') || 'uk';
+      const period = lang === 'en' ? 'free' : lang === 'ru' ? 'бесплатно' : 'безкоштовно';
+      meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · ${period}`;
+    }
   } catch {}
 })();
 </script>

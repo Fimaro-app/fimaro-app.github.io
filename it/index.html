@@ -20,12 +20,17 @@
       WorkHub
     </a>
     <nav class="nav-links">
-      <a href="#features">Можливості</a>
-      <a href="#pricing">Тарифи</a>
-      <a href="#faq">Питання</a>
-      <a href="../index.html">← Всі ніші</a>
+      <a href="#features" data-i18n="nav.features">Можливості</a>
+      <a href="#pricing" data-i18n="nav.pricing">Тарифи</a>
+      <a href="#faq" data-i18n="nav.faq">Питання</a>
+      <a href="../index.html" data-i18n="nav.back">← Всі ніші</a>
     </nav>
-    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav">Скачати безкоштовно</a>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="uk">UA</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-sm" id="dl-win-nav" data-i18n="nav.download">Скачати безкоштовно</a>
   </div>
 </header>
 
@@ -38,26 +43,26 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        <span>Для IT-агенцій та студій розробки</span>
+        <span data-i18n="hero.badge">Для IT-агенцій та студій розробки</span>
       </div>
       <h1>
-        Ваша команда.<br>
-        <span class="grad-text">Проекти без хаосу в чатах.</span>
+        <span data-i18n="hero.title1">Ваша команда.</span><br>
+        <span class="grad-text" data-i18n="hero.title2">Проекти без хаосу в чатах.</span>
       </h1>
-      <p class="hero-sub">
+      <p class="hero-sub" data-i18n="hero.sub">
         Проекти з Kanban, доступ по ролях для команди, таймер часу на задачах, рахунки клієнтам і клієнтський портал — замість Jira, Slack-тредів і Google Docs у різних вкладках.
       </p>
       <div class="hero-actions">
         <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-hero">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-          <span>Скачати для Windows</span>
+          <span data-i18n="hero.dl_win">Скачати для Windows</span>
         </a>
-        <a href="#features" class="btn btn-ghost btn-lg">Що всередині →</a>
+        <a href="#features" class="btn btn-ghost btn-lg" data-i18n="hero.explore">Що всередині →</a>
       </div>
       <div class="hero-trust">
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Проекти + Kanban з командою</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Права доступу для кожного</span>
-        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Безкоштовний план назавжди</span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust1">Проекти + Kanban з командою</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust2">Права доступу для кожного</span></span>
+        <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span data-i18n="hero.trust3">Безкоштовний план назавжди</span></span>
       </div>
     </div>
 
@@ -75,19 +80,19 @@
 
 <div class="container">
   <div class="stats-row">
-    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label">модулів у застосунку</div></div>
-    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label">готові ніші з коробки</div></div>
-    <div class="stat-item"><div class="stat-num">&lt;2 хв</div><div class="stat-label">від встановлення до першого клієнта</div></div>
-    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label">безкоштовний план назавжди</div></div>
+    <div class="stat-item"><div class="stat-num">29+</div><div class="stat-label" data-i18n="stats.modules">модулів у застосунку</div></div>
+    <div class="stat-item"><div class="stat-num">4</div><div class="stat-label" data-i18n="stats.niches">готові ніші з коробки</div></div>
+    <div class="stat-item"><div class="stat-num" data-i18n="stats.setup_num">&lt;2 хв</div><div class="stat-label" data-i18n="stats.setup">від встановлення до першого клієнта</div></div>
+    <div class="stat-item"><div class="stat-num">₴0</div><div class="stat-label" data-i18n="stats.free">безкоштовний план назавжди</div></div>
   </div>
 </div>
 
 <section class="section" id="features">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ДЛЯ IT-АГЕНЦІЙ</div>
-      <h2>Все, що зазвичай розкидане по Jira, Slack і Google Docs</h2>
-      <p class="section-sub">Проекти, команда, рахунки і клієнтський портал — в одному застосунку.</p>
+      <div class="section-tag" data-i18n="features.tag">ДЛЯ IT-АГЕНЦІЙ</div>
+      <h2 data-i18n="features.title">Все, що зазвичай розкидане по Jira, Slack і Google Docs</h2>
+      <p class="section-sub" data-i18n="features.sub">Проекти, команда, рахунки і клієнтський портал — в одному застосунку.</p>
     </div>
 
     <div class="features-bento">
@@ -96,42 +101,42 @@
         <div class="bento-icon" style="color:#F59E0B">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         </div>
-        <h3>Проекти та Kanban</h3>
-        <p>Дошка з drag-and-drop або список, статуси, бюджет проекту, дедлайни і пріоритети. Прикріплення скріншотів прямо з буфера (Ctrl+V) — зручно для баг-репортів і правок.</p>
-        <div class="bento-tags"><span>Проекти</span><span>Kanban</span><span>Дедлайни</span></div>
+        <h3 data-i18n="feat.proj.title">Проекти та Kanban</h3>
+        <p data-i18n="feat.proj.desc">Дошка з drag-and-drop або список, статуси, бюджет проекту, дедлайни і пріоритети. Прикріплення скріншотів прямо з буфера (Ctrl+V) — зручно для баг-репортів і правок.</p>
+        <div class="bento-tags"><span data-i18n="feat.proj.t1">Проекти</span><span>Kanban</span><span data-i18n="feat.proj.t2">Дедлайни</span></div>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#A78BFA">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Команда та права доступу</h3>
-        <p>Запрошуй розробників і менеджерів, обирай кому які модулі й проекти видно. До 5 осіб на плані BUSINESS.</p>
+        <h3 data-i18n="feat.team.title">Команда та права доступу</h3>
+        <p data-i18n="feat.team.desc">Запрошуй розробників і менеджерів, обирай кому які модулі й проекти видно. До 5 осіб на плані BUSINESS.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#38BDF8">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
         </div>
-        <h3>Таймер робочого часу</h3>
-        <p>Прив'язка до проекту чи задачі — зручно для погодинного білінгу і звітності перед клієнтом.</p>
+        <h3 data-i18n="feat.timer.title">Таймер робочого часу</h3>
+        <p data-i18n="feat.timer.desc">Прив'язка до проекту чи задачі — зручно для погодинного білінгу і звітності перед клієнтом.</p>
       </div>
 
       <div class="bento-card">
         <div class="bento-icon" style="color:#7C5CFC">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <h3>Клієнти та клієнтський портал</h3>
-        <p>Картка клієнта з контактами і бюджетом. Клієнтський портал (PRO) — клієнт бачить свої рахунки і проекти онлайн, без реєстрації.</p>
+        <h3 data-i18n="feat.clients.title">Клієнти та клієнтський портал</h3>
+        <p data-i18n="feat.clients.desc">Картка клієнта з контактами і бюджетом. Клієнтський портал (PRO) — клієнт бачить свої рахунки і проекти онлайн, без реєстрації.</p>
       </div>
 
       <div class="bento-card bento-wide">
         <div class="bento-icon" style="color:#22C55E">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
         </div>
-        <h3>Рахунки, договори та шаблони</h3>
-        <p>PDF-рахунки з вашим бізнес-профілем, повторювані рахунки для щомісячного супроводу проекту, договори за шаблоном і бібліотека документів для нових клієнтів.</p>
-        <div class="bento-tags"><span>Рахунки</span><span>Договори</span><span>Шаблони</span></div>
+        <h3 data-i18n="feat.inv.title">Рахунки, договори та шаблони</h3>
+        <p data-i18n="feat.inv.desc">PDF-рахунки з вашим бізнес-профілем, повторювані рахунки для щомісячного супроводу проекту, договори за шаблоном і бібліотека документів для нових клієнтів.</p>
+        <div class="bento-tags"><span data-i18n="feat.inv.t1">Рахунки</span><span data-i18n="feat.inv.t2">Договори</span><span data-i18n="feat.inv.t3">Шаблони</span></div>
       </div>
 
     </div>
@@ -141,26 +146,26 @@
 <section class="section" id="how">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ЯК ЦЕ ПРАЦЮЄ</div>
-      <h2>Від встановлення до першого проекту — 2 хвилини</h2>
+      <div class="section-tag" data-i18n="how.tag">ЯК ЦЕ ПРАЦЮЄ</div>
+      <h2 data-i18n="how.title">Від встановлення до першого проекту — 2 хвилини</h2>
     </div>
     <div class="steps-row">
       <div class="step-item">
         <div class="step-num">01</div>
-        <h3>Завантаж і встанови</h3>
-        <p>Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
+        <h3 data-i18n="how.s1.title">Завантаж і встанови</h3>
+        <p data-i18n="how.s1.desc">Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">02</div>
-        <h3>Увімкни потрібні модулі</h3>
-        <p>Окремої ніші «IT-агенція» в онбордингу поки немає — оберіть найближчу сферу і додайте вручну Проекти, Команду, Клієнтський портал і Рахунки.</p>
+        <h3 data-i18n="how.s2.title">Увімкни потрібні модулі</h3>
+        <p data-i18n="how.s2.desc">Окремої ніші «IT-агенція» в онбордингу поки немає — оберіть найближчу сферу і додайте вручну Проекти, Команду, Клієнтський портал і Рахунки.</p>
       </div>
       <div class="step-arrow">→</div>
       <div class="step-item">
         <div class="step-num">03</div>
-        <h3>Запроси команду і клієнта</h3>
-        <p>Розподіли доступ по модулях, заведи перший проект і виставь рахунок.</p>
+        <h3 data-i18n="how.s3.title">Запроси команду і клієнта</h3>
+        <p data-i18n="how.s3.desc">Розподіли доступ по модулях, заведи перший проект і виставь рахунок.</p>
       </div>
     </div>
   </div>
@@ -169,52 +174,52 @@
 <section class="section section-dim" id="pricing">
   <div class="container">
     <div class="section-head">
-      <div class="section-tag">ТАРИФИ</div>
-      <h2>Почни безкоштовно</h2>
-      <p class="section-sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
+      <div class="section-tag" data-i18n="pricing.tag">ТАРИФИ</div>
+      <h2 data-i18n="pricing.title">Почни безкоштовно</h2>
+      <p class="section-sub" data-i18n="pricing.sub">Без прив'язки картки. Скасування в один клік. Дані не видаляються.</p>
     </div>
 
     <div class="pricing-row">
 
       <div class="price-card">
         <div class="price-tier">FREE</div>
-        <div class="price-amount">₴0<span>/міс</span></div>
-        <p class="price-desc">Для старту та ознайомлення</p>
+        <div class="price-amount">₴0<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.free.desc">Для старту та ознайомлення</p>
         <ul class="price-list">
-          <li>До 50 клієнтів</li>
-          <li>До 10 проектів</li>
-          <li>До 20 рахунків на місяць</li>
-          <li>1 користувач</li>
+          <li data-i18n="pricing.free.1">До 50 клієнтів</li>
+          <li data-i18n="pricing.free.2">До 10 проектів</li>
+          <li data-i18n="pricing.free.3">До 20 рахунків на місяць</li>
+          <li data-i18n="pricing.free.4">1 користувач</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Почати безкоштовно</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.free.btn">Почати безкоштовно</a>
       </div>
 
       <div class="price-card price-featured">
-        <div class="price-popular">Найпопулярніший</div>
+        <div class="price-popular" data-i18n="pricing.popular">Найпопулярніший</div>
         <div class="price-tier" style="color:#7C5CFC">PRO</div>
-        <div class="price-amount">₴299<span>/міс</span></div>
-        <p class="price-desc">Для активної роботи</p>
+        <div class="price-amount">₴299<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.pro.desc">Для активної роботи</p>
         <ul class="price-list">
-          <li>Необмежено клієнтів, проектів і рахунків</li>
-          <li>Клієнтський портал</li>
-          <li>Повторювані рахунки</li>
-          <li>Розширена аналітика</li>
-          <li>Всі модулі</li>
+          <li data-i18n="pricing.pro.1">Необмежено клієнтів, проектів і рахунків</li>
+          <li data-i18n="pricing.pro.2">Клієнтський портал</li>
+          <li data-i18n="pricing.pro.3">Повторювані рахунки</li>
+          <li data-i18n="pricing.pro.4">Розширена аналітика</li>
+          <li data-i18n="pricing.pro.5">Всі модулі</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block">Обрати PRO</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-block" data-i18n="pricing.pro.btn">Обрати PRO</a>
       </div>
 
       <div class="price-card">
         <div class="price-tier" style="color:#A78BFA">BUSINESS</div>
-        <div class="price-amount">₴799<span>/міс</span></div>
-        <p class="price-desc">Для команди розробників</p>
+        <div class="price-amount">₴799<span data-i18n="pricing.period">/міс</span></div>
+        <p class="price-desc" data-i18n="pricing.biz.desc">Для команди розробників</p>
         <ul class="price-list">
-          <li>Все з PRO</li>
-          <li>Команда до 5 осіб</li>
-          <li>До 3 окремих бізнесів</li>
-          <li>Пріоритетна підтримка</li>
+          <li data-i18n="pricing.biz.1">Все з PRO</li>
+          <li data-i18n="pricing.biz.2">Команда до 5 осіб</li>
+          <li data-i18n="pricing.biz.3">До 3 окремих бізнесів</li>
+          <li data-i18n="pricing.biz.4">Пріоритетна підтримка</li>
         </ul>
-        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block">Обрати BUSINESS</a>
+        <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-outline btn-block" data-i18n="pricing.biz.btn">Обрати BUSINESS</a>
       </div>
 
     </div>
@@ -224,33 +229,33 @@
 <section class="section" id="faq">
   <div class="container container-narrow">
     <div class="section-head">
-      <div class="section-tag">ПИТАННЯ</div>
-      <h2>Часті запитання</h2>
+      <div class="section-tag" data-i18n="faq.tag">ПИТАННЯ</div>
+      <h2 data-i18n="faq.title">Часті запитання</h2>
     </div>
     <div class="faq-list">
       <details class="faq-item" open>
-        <summary>Чи є окрема ніша «IT-агенція» при реєстрації?</summary>
-        <p>Поки немає окремого набору модулів під IT-агенцію — на кроці вибору сфери оберіть найближчу (наприклад, «Фрілансер») і додайте вручну потрібні модулі: Проекти, Команду, Клієнтський портал, Рахунки. Змінити набір модулів можна будь-коли через «Налаштувати модулі» в бічному меню.</p>
+        <summary data-i18n="faq.q1">Чи є окрема ніша «IT-агенція» при реєстрації?</summary>
+        <p data-i18n="faq.a1">Поки немає окремого набору модулів під IT-агенцію — на кроці вибору сфери оберіть найближчу (наприклад, «Фрілансер») і додайте вручну потрібні модулі: Проекти, Команду, Клієнтський портал, Рахунки. Змінити набір модулів можна будь-коли через «Налаштувати модулі» в бічному меню.</p>
       </details>
       <details class="faq-item">
-        <summary>Скільки людей можна додати в команду?</summary>
-        <p>На плані BUSINESS — до 5 співробітників за кодом запрошення. На FREE і PRO — одноосібна робота.</p>
+        <summary data-i18n="faq.q2">Скільки людей можна додати в команду?</summary>
+        <p data-i18n="faq.a2">На плані BUSINESS — до 5 співробітників за кодом запрошення. На FREE і PRO — одноосібна робота.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи бачать співробітники всі проекти й дані?</summary>
-        <p>Ні. Власник налаштовує доступ для кожного члена команди окремо — які модулі та проекти видно кожному.</p>
+        <summary data-i18n="faq.q3">Чи бачать співробітники всі проекти й дані?</summary>
+        <p data-i18n="faq.a3">Ні. Власник налаштовує доступ для кожного члена команди окремо — які модулі та проекти видно кожному.</p>
       </details>
       <details class="faq-item">
-        <summary>Чи є клієнтський портал для здачі проекту?</summary>
-        <p>Так, на плані PRO. Клієнт отримує посилання і бачить свої рахунки та проекти онлайн без реєстрації.</p>
+        <summary data-i18n="faq.q4">Чи є клієнтський портал для здачі проекту?</summary>
+        <p data-i18n="faq.a4">Так, на плані PRO. Клієнт отримує посилання і бачить свої рахунки та проекти онлайн без реєстрації.</p>
       </details>
       <details class="faq-item">
-        <summary>Де зберігаються дані?</summary>
-        <p>У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
+        <summary data-i18n="faq.q5">Де зберігаються дані?</summary>
+        <p data-i18n="faq.a5">У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.</p>
       </details>
       <details class="faq-item">
-        <summary>Як скасувати підписку?</summary>
-        <p>В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
+        <summary data-i18n="faq.q6">Як скасувати підписку?</summary>
+        <p data-i18n="faq.a6">В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.</p>
       </details>
     </div>
   </div>
@@ -259,12 +264,12 @@
 <section class="cta-section">
   <div class="cta-glow"></div>
   <div class="container cta-inner">
-    <h2>Готові прибрати хаос у проектах?</h2>
-    <p>Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
+    <h2 data-i18n="cta.title">Готові прибрати хаос у проектах?</h2>
+    <p data-i18n="cta.sub">Встановлення займає менше хвилини. Безкоштовно, без картки.</p>
     <div class="cta-actions">
       <a href="https://github.com/WorkHub-App/workhub-releases/releases/latest" class="btn btn-primary btn-lg" id="dl-win-cta">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
-        <span>Завантажити для Windows</span>
+        <span data-i18n="cta.dl_win">Завантажити для Windows</span>
       </a>
     </div>
     <p class="cta-meta" id="dl-meta"></p>
@@ -277,7 +282,7 @@
       <div class="brand-logo">W</div>
       WorkHub
     </a>
-    <p class="footer-copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
+    <p class="footer-copy" data-i18n="footer.copy">© 2025–2026 Pavlo Turanskyi. Усі права захищені.</p>
     <div class="footer-links">
       <a href="https://t.me/workhubapp" target="_blank" rel="noopener" title="Telegram">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12s5.15 11.5 11.5 11.5S23.5 18.35 23.5 12 18.35.5 12 .5zm5.4 7.9l-1.9 9.05c-.14.64-.52.79-1.05.49l-2.9-2.14-1.4 1.35c-.16.16-.29.29-.59.29l.21-2.99 5.44-4.92c.24-.21-.05-.33-.36-.12l-6.73 4.24-2.9-.91c-.63-.2-.64-.63.13-.93l11.34-4.37c.52-.19.98.13.71 1.3z"/></svg>
@@ -293,6 +298,169 @@
 </footer>
 
 <script>
+const T = {
+  uk: {
+    'nav.features': 'Можливості', 'nav.pricing': 'Тарифи', 'nav.faq': 'Питання', 'nav.back': '← Всі ніші', 'nav.download': 'Скачати безкоштовно',
+    'hero.badge': 'Для IT-агенцій та студій розробки',
+    'hero.title1': 'Ваша команда.', 'hero.title2': 'Проекти без хаосу в чатах.',
+    'hero.sub': 'Проекти з Kanban, доступ по ролях для команди, таймер часу на задачах, рахунки клієнтам і клієнтський портал — замість Jira, Slack-тредів і Google Docs у різних вкладках.',
+    'hero.dl_win': 'Скачати для Windows', 'hero.explore': 'Що всередині →',
+    'hero.trust1': 'Проекти + Kanban з командою', 'hero.trust2': 'Права доступу для кожного', 'hero.trust3': 'Безкоштовний план назавжди',
+    'stats.modules': 'модулів у застосунку', 'stats.niches': 'готові ніші з коробки',
+    'stats.setup_num': '<2 хв', 'stats.setup': 'від встановлення до першого клієнта', 'stats.free': 'безкоштовний план назавжди',
+    'features.tag': 'ДЛЯ IT-АГЕНЦІЙ', 'features.title': 'Все, що зазвичай розкидане по Jira, Slack і Google Docs',
+    'features.sub': 'Проекти, команда, рахунки і клієнтський портал — в одному застосунку.',
+    'feat.proj.title': 'Проекти та Kanban',
+    'feat.proj.desc': 'Дошка з drag-and-drop або список, статуси, бюджет проекту, дедлайни і пріоритети. Прикріплення скріншотів прямо з буфера (Ctrl+V) — зручно для баг-репортів і правок.',
+    'feat.proj.t1': 'Проекти', 'feat.proj.t2': 'Дедлайни',
+    'feat.team.title': 'Команда та права доступу',
+    'feat.team.desc': 'Запрошуй розробників і менеджерів, обирай кому які модулі й проекти видно. До 5 осіб на плані BUSINESS.',
+    'feat.timer.title': 'Таймер робочого часу',
+    'feat.timer.desc': "Прив'язка до проекту чи задачі — зручно для погодинного білінгу і звітності перед клієнтом.",
+    'feat.clients.title': 'Клієнти та клієнтський портал',
+    'feat.clients.desc': 'Картка клієнта з контактами і бюджетом. Клієнтський портал (PRO) — клієнт бачить свої рахунки і проекти онлайн, без реєстрації.',
+    'feat.inv.title': 'Рахунки, договори та шаблони',
+    'feat.inv.desc': 'PDF-рахунки з вашим бізнес-профілем, повторювані рахунки для щомісячного супроводу проекту, договори за шаблоном і бібліотека документів для нових клієнтів.',
+    'feat.inv.t1': 'Рахунки', 'feat.inv.t2': 'Договори', 'feat.inv.t3': 'Шаблони',
+    'how.tag': 'ЯК ЦЕ ПРАЦЮЄ', 'how.title': 'Від встановлення до першого проекту — 2 хвилини',
+    'how.s1.title': 'Завантаж і встанови', 'how.s1.desc': 'Один .exe файл. Без адмін-прав, без залежностей, без реєстрації.',
+    'how.s2.title': 'Увімкни потрібні модулі', 'how.s2.desc': 'Окремої ніші «IT-агенція» в онбордингу поки немає — оберіть найближчу сферу і додайте вручну Проекти, Команду, Клієнтський портал і Рахунки.',
+    'how.s3.title': 'Запроси команду і клієнта', 'how.s3.desc': 'Розподіли доступ по модулях, заведи перший проект і виставь рахунок.',
+    'pricing.tag': 'ТАРИФИ', 'pricing.title': 'Почни безкоштовно', 'pricing.period': '/міс',
+    'pricing.sub': "Без прив'язки картки. Скасування в один клік. Дані не видаляються.", 'pricing.popular': 'Найпопулярніший',
+    'pricing.free.desc': 'Для старту та ознайомлення', 'pricing.free.1': 'До 50 клієнтів', 'pricing.free.2': 'До 10 проектів',
+    'pricing.free.3': 'До 20 рахунків на місяць', 'pricing.free.4': '1 користувач', 'pricing.free.btn': 'Почати безкоштовно',
+    'pricing.pro.desc': 'Для активної роботи', 'pricing.pro.1': 'Необмежено клієнтів, проектів і рахунків', 'pricing.pro.2': 'Клієнтський портал',
+    'pricing.pro.3': 'Повторювані рахунки', 'pricing.pro.4': 'Розширена аналітика', 'pricing.pro.5': 'Всі модулі', 'pricing.pro.btn': 'Обрати PRO',
+    'pricing.biz.desc': 'Для команди розробників', 'pricing.biz.1': 'Все з PRO', 'pricing.biz.2': 'Команда до 5 осіб',
+    'pricing.biz.3': 'До 3 окремих бізнесів', 'pricing.biz.4': 'Пріоритетна підтримка', 'pricing.biz.btn': 'Обрати BUSINESS',
+    'faq.tag': 'ПИТАННЯ', 'faq.title': 'Часті запитання',
+    'faq.q1': 'Чи є окрема ніша «IT-агенція» при реєстрації?', 'faq.a1': 'Поки немає окремого набору модулів під IT-агенцію — на кроці вибору сфери оберіть найближчу (наприклад, «Фрілансер») і додайте вручну потрібні модулі: Проекти, Команду, Клієнтський портал, Рахунки. Змінити набір модулів можна будь-коли через «Налаштувати модулі» в бічному меню.',
+    'faq.q2': 'Скільки людей можна додати в команду?', 'faq.a2': 'На плані BUSINESS — до 5 співробітників за кодом запрошення. На FREE і PRO — одноосібна робота.',
+    'faq.q3': 'Чи бачать співробітники всі проекти й дані?', 'faq.a3': 'Ні. Власник налаштовує доступ для кожного члена команди окремо — які модулі та проекти видно кожному.',
+    'faq.q4': 'Чи є клієнтський портал для здачі проекту?', 'faq.a4': 'Так, на плані PRO. Клієнт отримує посилання і бачить свої рахунки та проекти онлайн без реєстрації.',
+    'faq.q5': 'Де зберігаються дані?', 'faq.a5': 'У Firebase — вашій приватній хмарі. Застосунок працює і офлайн, синхронізується при підключенні до інтернету.',
+    'faq.q6': 'Як скасувати підписку?', 'faq.a6': 'В будь-який момент через Налаштування → Підписка. Акаунт переходить на FREE план, дані не видаляються.',
+    'cta.title': 'Готові прибрати хаос у проектах?', 'cta.sub': 'Встановлення займає менше хвилини. Безкоштовно, без картки.',
+    'cta.dl_win': 'Завантажити для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Усі права захищені.',
+  },
+  ru: {
+    'nav.features': 'Возможности', 'nav.pricing': 'Тарифы', 'nav.faq': 'Вопросы', 'nav.back': '← Все ниши', 'nav.download': 'Скачать бесплатно',
+    'hero.badge': 'Для IT-агентств и студий разработки',
+    'hero.title1': 'Ваша команда.', 'hero.title2': 'Проекты без хаоса в чатах.',
+    'hero.sub': 'Проекты с Kanban, доступ по ролям для команды, таймер времени на задачах, счета клиентам и клиентский портал — вместо Jira, Slack-тредов и Google Docs в разных вкладках.',
+    'hero.dl_win': 'Скачать для Windows', 'hero.explore': 'Что внутри →',
+    'hero.trust1': 'Проекты + Kanban с командой', 'hero.trust2': 'Права доступа для каждого', 'hero.trust3': 'Бесплатный план навсегда',
+    'stats.modules': 'модулей в приложении', 'stats.niches': 'готовые ниши из коробки',
+    'stats.setup_num': '<2 мин', 'stats.setup': 'от установки до первого клиента', 'stats.free': 'бесплатный план навсегда',
+    'features.tag': 'ДЛЯ IT-АГЕНТСТВ', 'features.title': 'Всё, что обычно разбросано по Jira, Slack и Google Docs',
+    'features.sub': 'Проекты, команда, счета и клиентский портал — в одном приложении.',
+    'feat.proj.title': 'Проекты и Kanban',
+    'feat.proj.desc': 'Доска с drag-and-drop или список, статусы, бюджет проекта, дедлайны и приоритеты. Вставка скриншотов прямо из буфера (Ctrl+V) — удобно для баг-репортов и правок.',
+    'feat.proj.t1': 'Проекты', 'feat.proj.t2': 'Дедлайны',
+    'feat.team.title': 'Команда и права доступа',
+    'feat.team.desc': 'Приглашай разработчиков и менеджеров, выбирай кому какие модули и проекты видны. До 5 человек на плане BUSINESS.',
+    'feat.timer.title': 'Таймер рабочего времени',
+    'feat.timer.desc': 'Привязка к проекту или задаче — удобно для почасового биллинга и отчётности перед клиентом.',
+    'feat.clients.title': 'Клиенты и клиентский портал',
+    'feat.clients.desc': 'Карточка клиента с контактами и бюджетом. Клиентский портал (PRO) — клиент видит свои счета и проекты онлайн, без регистрации.',
+    'feat.inv.title': 'Счета, договоры и шаблоны',
+    'feat.inv.desc': 'PDF-счета с вашим бизнес-профилем, повторяющиеся счета для ежемесячного сопровождения проекта, договоры по шаблону и библиотека документов для новых клиентов.',
+    'feat.inv.t1': 'Счета', 'feat.inv.t2': 'Договоры', 'feat.inv.t3': 'Шаблоны',
+    'how.tag': 'КАК ЭТО РАБОТАЕТ', 'how.title': 'От установки до первого проекта — 2 минуты',
+    'how.s1.title': 'Скачай и установи', 'how.s1.desc': 'Один .exe файл. Без прав администратора, без зависимостей, без регистрации.',
+    'how.s2.title': 'Включи нужные модули', 'how.s2.desc': 'Отдельной ниши «IT-агентство» в онбординге пока нет — выберите ближайшую сферу и добавьте вручную Проекты, Команду, Клиентский портал и Счета.',
+    'how.s3.title': 'Пригласи команду и клиента', 'how.s3.desc': 'Распредели доступ по модулям, заведи первый проект и выставь счёт.',
+    'pricing.tag': 'ТАРИФЫ', 'pricing.title': 'Начни бесплатно', 'pricing.period': '/мес',
+    'pricing.sub': 'Без привязки карты. Отмена в один клик. Данные не удаляются.', 'pricing.popular': 'Самый популярный',
+    'pricing.free.desc': 'Для старта и знакомства', 'pricing.free.1': 'До 50 клиентов', 'pricing.free.2': 'До 10 проектов',
+    'pricing.free.3': 'До 20 счетов в месяц', 'pricing.free.4': '1 пользователь', 'pricing.free.btn': 'Начать бесплатно',
+    'pricing.pro.desc': 'Для активной работы', 'pricing.pro.1': 'Безлимитные клиенты, проекты и счета', 'pricing.pro.2': 'Клиентский портал',
+    'pricing.pro.3': 'Повторяющиеся счета', 'pricing.pro.4': 'Расширенная аналитика', 'pricing.pro.5': 'Все модули', 'pricing.pro.btn': 'Выбрать PRO',
+    'pricing.biz.desc': 'Для команды разработчиков', 'pricing.biz.1': 'Всё из PRO', 'pricing.biz.2': 'Команда до 5 человек',
+    'pricing.biz.3': 'До 3 отдельных бизнесов', 'pricing.biz.4': 'Приоритетная поддержка', 'pricing.biz.btn': 'Выбрать BUSINESS',
+    'faq.tag': 'ВОПРОСЫ', 'faq.title': 'Частые вопросы',
+    'faq.q1': 'Есть ли отдельная ниша «IT-агентство» при регистрации?', 'faq.a1': 'Пока нет отдельного набора модулей под IT-агентство — на шаге выбора сферы выберите ближайшую (например, «Фрилансер») и добавьте вручную нужные модули: Проекты, Команду, Клиентский портал, Счета. Изменить набор модулей можно в любой момент через «Настроить модули» в боковом меню.',
+    'faq.q2': 'Сколько человек можно добавить в команду?', 'faq.a2': 'На плане BUSINESS — до 5 сотрудников по коду приглашения. На FREE и PRO — единоличная работа.',
+    'faq.q3': 'Видят ли сотрудники все проекты и данные?', 'faq.a3': 'Нет. Владелец настраивает доступ для каждого члена команды отдельно — какие модули и проекты видны каждому.',
+    'faq.q4': 'Есть ли клиентский портал для сдачи проекта?', 'faq.a4': 'Да, на плане PRO. Клиент получает ссылку и видит свои счета и проекты онлайн без регистрации.',
+    'faq.q5': 'Где хранятся данные?', 'faq.a5': 'В Firebase — вашем приватном облаке. Приложение работает и офлайн, синхронизируется при подключении к интернету.',
+    'faq.q6': 'Как отменить подписку?', 'faq.a6': 'В любой момент через Настройки → Подписка. Аккаунт переходит на FREE план, данные не удаляются.',
+    'cta.title': 'Готовы убрать хаос в проектах?', 'cta.sub': 'Установка занимает меньше минуты. Бесплатно, без карты.',
+    'cta.dl_win': 'Скачать для Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. Все права защищены.',
+  },
+  en: {
+    'nav.features': 'Features', 'nav.pricing': 'Pricing', 'nav.faq': 'FAQ', 'nav.back': '← All niches', 'nav.download': 'Download free',
+    'hero.badge': 'For IT agencies and dev studios',
+    'hero.title1': 'Your team.', 'hero.title2': 'Projects without the chat chaos.',
+    'hero.sub': 'Projects with Kanban, role-based access for the team, time tracking on tasks, client invoices and a client portal — instead of Jira, Slack threads and Google Docs across different tabs.',
+    'hero.dl_win': 'Download for Windows', 'hero.explore': "What's inside →",
+    'hero.trust1': 'Projects + Kanban with your team', 'hero.trust2': 'Access control for everyone', 'hero.trust3': 'Free plan forever',
+    'stats.modules': 'modules in the app', 'stats.niches': 'ready-made niches out of the box',
+    'stats.setup_num': '<2 min', 'stats.setup': 'from install to your first client', 'stats.free': 'free plan forever',
+    'features.tag': 'FOR IT AGENCIES', 'features.title': 'Everything normally scattered across Jira, Slack and Google Docs',
+    'features.sub': 'Projects, team, invoices and a client portal — in one app.',
+    'feat.proj.title': 'Projects & Kanban',
+    'feat.proj.desc': 'A drag-and-drop board or list view, statuses, project budget, deadlines and priorities. Paste screenshots straight from your clipboard (Ctrl+V) — handy for bug reports and revisions.',
+    'feat.proj.t1': 'Projects', 'feat.proj.t2': 'Deadlines',
+    'feat.team.title': 'Team & access control',
+    'feat.team.desc': 'Invite developers and managers, choose who sees which modules and projects. Up to 5 people on the BUSINESS plan.',
+    'feat.timer.title': 'Work time tracker',
+    'feat.timer.desc': 'Linked to a project or task — handy for hourly billing and reporting to the client.',
+    'feat.clients.title': 'Clients & client portal',
+    'feat.clients.desc': "A client card with contacts and budget. Client portal (PRO) — clients see their invoices and projects online, without registering.",
+    'feat.inv.title': 'Invoices, contracts & templates',
+    'feat.inv.desc': "PDF invoices with your business profile, recurring invoices for monthly project retainers, contracts from a template, and a document library for new clients.",
+    'feat.inv.t1': 'Invoices', 'feat.inv.t2': 'Contracts', 'feat.inv.t3': 'Templates',
+    'how.tag': 'HOW IT WORKS', 'how.title': 'From install to your first project — 2 minutes',
+    'how.s1.title': 'Download & install', 'how.s1.desc': 'One .exe file. No admin rights, no dependencies, no registration.',
+    'how.s2.title': 'Enable the modules you need', 'how.s2.desc': 'There isn\'t a dedicated "IT agency" niche in onboarding yet — pick the closest one and manually add Projects, Team, Client Portal and Invoices.',
+    'how.s3.title': 'Invite your team and a client', 'how.s3.desc': 'Set up module access, create your first project, and send an invoice.',
+    'pricing.tag': 'PRICING', 'pricing.title': 'Start for free', 'pricing.period': '/mo',
+    'pricing.sub': 'No credit card required. Cancel anytime. Data is never deleted.', 'pricing.popular': 'Most popular',
+    'pricing.free.desc': 'For getting started', 'pricing.free.1': 'Up to 50 clients', 'pricing.free.2': 'Up to 10 projects',
+    'pricing.free.3': 'Up to 20 invoices/month', 'pricing.free.4': '1 user', 'pricing.free.btn': 'Start for free',
+    'pricing.pro.desc': 'For active work', 'pricing.pro.1': 'Unlimited clients, projects & invoices', 'pricing.pro.2': 'Client portal',
+    'pricing.pro.3': 'Recurring invoices', 'pricing.pro.4': 'Advanced analytics', 'pricing.pro.5': 'All modules', 'pricing.pro.btn': 'Get PRO',
+    'pricing.biz.desc': 'For a dev team', 'pricing.biz.1': 'Everything in PRO', 'pricing.biz.2': 'Team up to 5 people',
+    'pricing.biz.3': 'Up to 3 separate businesses', 'pricing.biz.4': 'Priority support', 'pricing.biz.btn': 'Get BUSINESS',
+    'faq.tag': 'FAQ', 'faq.title': 'Frequently asked questions',
+    'faq.q1': 'Is there a dedicated "IT agency" niche on signup?', 'faq.a1': 'There isn\'t a dedicated module set for IT agencies yet — at the niche selection step, pick the closest one (e.g. "Freelancer") and manually add the modules you need: Projects, Team, Client Portal, Invoices. You can change the module set anytime via "Configure modules" in the sidebar.',
+    'faq.q2': 'How many people can I add to the team?', 'faq.a2': 'On the BUSINESS plan — up to 5 employees via invite code. On FREE and PRO it\'s solo work.',
+    'faq.q3': 'Can employees see all projects and data?', 'faq.a3': "No. The owner configures access for each team member individually — which modules and projects each person sees.",
+    'faq.q4': 'Is there a client portal for project delivery?', 'faq.a4': 'Yes, on the PRO plan. The client gets a link and sees their invoices and projects online without registering.',
+    'faq.q5': 'Where is my data stored?', 'faq.a5': "In Firebase — your private cloud. The app works offline too and syncs once you're back online.",
+    'faq.q6': 'How do I cancel my subscription?', 'faq.a6': 'Anytime via Settings → Subscription. The account reverts to the FREE plan, data is kept.',
+    'cta.title': 'Ready to clear the chaos in your projects?', 'cta.sub': 'Installation takes under a minute. Free, no credit card.',
+    'cta.dl_win': 'Download for Windows',
+    'footer.copy': '© 2025–2026 Pavlo Turanskyi. All rights reserved.',
+  },
+}
+
+function applyLang(lang) {
+  const dict = T[lang] || T.uk
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const val = dict[el.dataset.i18n]
+    if (val !== undefined) el.textContent = val
+  })
+  document.documentElement.lang = lang
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang))
+  localStorage.setItem('wh-lang', lang)
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyLang(btn.dataset.lang))
+})
+
+;(function () {
+  const saved = localStorage.getItem('wh-lang')
+  const browser = navigator.language?.slice(0, 2)
+  const lang = saved || (['uk','ru','en'].includes(browser) ? browser : 'uk')
+  if (lang !== 'uk') applyLang(lang)
+})()
+
 (function scrollReveal() {
   const els = document.querySelectorAll('.section-head, .bento-card, .step-item, .price-card, .faq-item');
   els.forEach(el => el.classList.add('reveal'));
@@ -319,7 +487,11 @@ const DL_BTN_IDS = ['dl-win-nav', 'dl-win-hero', 'dl-win-cta'];
     const v = (data.tag_name || '').replace(/^v/, '');
     if (exe) DL_BTN_IDS.forEach(id => { const el = document.getElementById(id); if (el) el.href = exe.browser_download_url; });
     const meta = document.getElementById('dl-meta');
-    if (meta && v) meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · безкоштовно`;
+    if (meta && v) {
+      const lang = localStorage.getItem('wh-lang') || 'uk';
+      const period = lang === 'en' ? 'free' : lang === 'ru' ? 'бесплатно' : 'безкоштовно';
+      meta.textContent = `v${v}${exe ? ' · ' + (exe.size/1024/1024).toFixed(0) + ' MB' : ''} · ${period}`;
+    }
   } catch {}
 })();
 </script>
